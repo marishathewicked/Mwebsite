@@ -69,7 +69,7 @@
 	margin: 0 0 10px 0;
 	outline: none;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
-	background: #fff url(img1.jpg) no-repeat center center;
+	background: #fff url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/img1-min.jpg) no-repeat center center;
 	-webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; 
 	background-clip: padding-box;
 	-webkit-transition: all 0.3s ease-in-out;
