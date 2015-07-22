@@ -60,7 +60,7 @@ html {
 	   }
 body{
 	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #fff url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bgr-min.jpg);
+	background: #fff url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bgr-min.jpg) center center fixed ;
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
