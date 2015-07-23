@@ -45,7 +45,7 @@
 				img : { src : 'https://s3.eu-central-1.amazonaws.com/marishathewicked/images/img13.jpg', offsetTop : 56, offsetLeft: 54}
 			}),
 			new pic({
-				top : 30, left : 491, width : 62,height : 93, href:'#',
+				top : 40, left : 491, width : 62,height : 93, href:'#',
 				img : { src : 'https://s3.eu-central-1.amazonaws.com/marishathewicked/images/img17.jpg', offsetTop : 90, offsetLeft: 37}
 			}),
 			new pic({
