@@ -9,7 +9,7 @@ body {
 	font-family:Verdana;
 	font-size:11px;
 }
-#wrap {
+#wrap3 {
 	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center 0px no-repeat;
 	width:100%;
 }
@@ -64,19 +64,6 @@ body {
 	margin:0px;
 	background:transparent;
 }
-#logo {
-	background:url(../images/logo.png) no-repeat;
-	width:439px;
-	height:115px;
-	position:relative;
-	top:92px;
-	left:44px;
-}
-#logo a {
-	height:100%;
-	width:100%;
-	display:block;
-}
 .mh, .mt, .mw, .mi, .pop_posts, .rss, .twitt, #TwitterCounter, #submit {
 	background:url(../images/sprite.png) no-repeat;
 }
@@ -109,7 +96,7 @@ body {
 	min-height:2200px;
 	background-color:#FFF;
 	position:relative;
-	background:url(../images/cnt.jpg) repeat-y;	
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
 	margin:0 auto;
 }
 #lcnt {
