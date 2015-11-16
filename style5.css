@@ -1,5 +1,5 @@
 body {
-	 background: url(../images/footer.jpg) no-repeat center center fixed ; 
+	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg?X-Amz-Date=20151116T210209Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=33b625c3efd462791d6ee8c9f06c8cf3b62d6f50c7e62a8348c0bc487f053d5c&X-Amz-Credential=ASIAIM2P4D72NAY7JSHA/20151116/eu-central-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEGYakAKTIpVb16b4wLCR5tVrScmBEQDIeuuMOmPP/eabpKaD/o4X7j3WdxPwSWSmb0B3bUDNXiFxqS4H05tw0vggSFS18gk1zPFK33mwF7MxwPSqH94qiVWA85tD5jvsVt3NUs4elqwPcl8ZOt/qZ7X7VgUdIParjcp1AHLJAw2c38cP7s7zF49iKwELWuYOAKWsQEaxlouH%2B/R%2BS3RR%2BKab8FscNAbpihXdfVm3vH0nALHZZdsml3k3OFTbB/jM5mrtljAmxW7GbLtsQU5DA/V%2Bs9gG79mAV9mRDd1yMeuVDPZS7lmIu%2BcWNzrT48je74Z0vjEYg8V9bAiEtSjV/0qIC2vLgENRn2gBt/khzdBu4NVfayCm/6iyBQ%3D%3D) no-repeat center center fixed ; 
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -10,7 +10,7 @@ body {
 	font-size:11px;
 }
 #wrap {
-	background: url(../images/bg.jpg) center 0px no-repeat;
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg?X-Amz-Date=20151116T210209Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=33b625c3efd462791d6ee8c9f06c8cf3b62d6f50c7e62a8348c0bc487f053d5c&X-Amz-Credential=ASIAIM2P4D72NAY7JSHA/20151116/eu-central-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEGYakAKTIpVb16b4wLCR5tVrScmBEQDIeuuMOmPP/eabpKaD/o4X7j3WdxPwSWSmb0B3bUDNXiFxqS4H05tw0vggSFS18gk1zPFK33mwF7MxwPSqH94qiVWA85tD5jvsVt3NUs4elqwPcl8ZOt/qZ7X7VgUdIParjcp1AHLJAw2c38cP7s7zF49iKwELWuYOAKWsQEaxlouH%2B/R%2BS3RR%2BKab8FscNAbpihXdfVm3vH0nALHZZdsml3k3OFTbB/jM5mrtljAmxW7GbLtsQU5DA/V%2Bs9gG79mAV9mRDd1yMeuVDPZS7lmIu%2BcWNzrT48je74Z0vjEYg8V9bAiEtSjV/0qIC2vLgENRn2gBt/khzdBu4NVfayCm/6iyBQ%3D%3D) center 0px no-repeat;
 	width:100%;
 }
 
