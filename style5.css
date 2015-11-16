@@ -398,7 +398,7 @@ body {
 
 .submit{
 	outline: none;
-	text-indent: -8000px;
+	text-indent: -10000px;
 	width: 49px;
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
