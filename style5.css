@@ -93,7 +93,7 @@ body {
 /*-- Container Style --*/
 #cnt {
 	width:1000px;
-	min-height:4200px;
+	min3-height:4200px;
 	background-color:#FFF;
 	position:relative;
 	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
@@ -118,8 +118,8 @@ body {
 	color:#000;
 }
 .post p {
-	font-size:13px;
-	 text-indent: 1.5em; /* Отступ первой строки */
+	font-size:14px;
+         text-indent: 1.5em; /* Отступ первой строки */
 }
 .post_inf {
 	float:left;
