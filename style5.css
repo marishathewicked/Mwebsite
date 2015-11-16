@@ -93,7 +93,7 @@ body {
 /*-- Container Style --*/
 #cnt {
 	width:1000px;
-	min-height:100%;
+	min-height:3000px;
 	background-color:#FFF;
 	position:relative;
 	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
