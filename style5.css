@@ -391,6 +391,11 @@ body {
 	-ms-transition: all 0.4s ease-in-out 0.5s;
 	transition: all 0.4s ease-in-out 0.5s;
 }
+.cn-slide:target .cn-back{
+	left: 3px;
+	opacity: 1;
+}
+
 .submit2{
 	outline: none;
 	text-indent: -9000px;
