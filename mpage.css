@@ -71,7 +71,7 @@ body{
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
-.a{
+a{
 	color: #008B8B;
 	text-decoration: none;
 }
@@ -131,7 +131,7 @@ body{
 .codrops-top a{
 	padding: 0px 10px;
 	letter-spacing: 1px;
-	color: #333;
+	color: #008B8B;
 	text-shadow: 0px 1px 1px #fff;
 	display: block;
 	float: left;
