@@ -71,7 +71,7 @@ body{
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
-a{
+.a{
 	color: #008B8B;
 	text-decoration: none;
 }
