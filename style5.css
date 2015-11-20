@@ -4,7 +4,7 @@ html {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-	background-color:#fff;
+	background-color:#2F4F4F;
 }
 body{
 	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat center center fixed; 
@@ -12,7 +12,7 @@ body{
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-	background-color:#747D82;
+	background-color:#8470FF;
 	margin:0px;
 	font-family:Verdana;
 	font-size:11px;
