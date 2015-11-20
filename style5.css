@@ -1,13 +1,24 @@
-body {
-	 background: url(../images/footer.jpg) no-repeat center center fixed ; 
+html {
+	height: 100%;
+	width: 100%;
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat fixed; 
+	background-position: center center;
+	margin-right:auto;
+	margin-bottom:auto;
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-	background-color:#747D82;
+	background-color:#2F4F4F;
+        margin:0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+body{
 	margin:0px;
 	font-family:Verdana;
-	font-size:11px;
+	font-size1:11px;
+	overflow-x: hidden;
 }
 #wrap {
 	background: url(../images/bg.jpg) center 0px no-repeat;
@@ -106,15 +117,17 @@ body {
 /*-- Container Style --*/
 #cnt {
 	width:1000px;
-	min-height:2200px;
+	height:auto;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
 	background-color:#FFF;
-	position:relative;
-	background:url(../images/cnt.jpg) repeat-y;	
+	position:absolute;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
 	margin:0 auto;
 }
 #lcnt {
 	width:710px;
-	min-height:1300px;
+	min-height:auto;
 	float:left;
 	background-color:#FFF;
 	position:relative;
@@ -328,11 +341,42 @@ body {
 	font-weight:normal;
 }
 .avat {
+	font-size:16px;
 	width:60px;
 	height:60px;
 	position:absolute;
 	margin:-55px 0 0 496px;
 }
+#av { 
+	position: absolute;
+	top: 50px;
+	left: 800px;
+	color: #008B8B;
+	
+}
+.av { 
+     position: absolute;
+     top: 80px;
+     left: 255px;
+     width: 40px;
+     height: 40px;
+     background-image: url();
+     background-position: top left;
+     background-repeat: no-repeat;
+     cursor: pointer;
+
+	}
+.notea {
+    font-family: arial, verdana;
+	font-size: 17px;
+    position: absolute;
+    margin:0 auto;
+	width:100%;
+	top: 25px; 
+	left: 390px;
+	text-align:center;
+	color:#fff;
+	}
 .avatar_frame {
 	width:70px;
 	height:66px;
@@ -386,3 +430,64 @@ body {
 #cmnt_frm #submit:hover {
 	color:#C3C3C3;
 }
+.submitback{
+	outline: none;
+	text-indent: -9000px;
+	border: 0;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
+	position: absolute;
+	top: 90px;
+	left: 914px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+}
+.cn-slide:target .cn-back{
+	left: 3px;
+	opacity: 1;
+}
+
+.submit{
+	outline: none;
+	text-indent: -9000px;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 90px;
+	left: 820px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	
+}
+.submithome{
+	outline: none;
+	text-indent: -9000px;
+	width: 51px;
+	height: 45px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/home.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 84px;
+	left: 867px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	}
+
+
+
+
