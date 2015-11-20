@@ -54,14 +54,20 @@ margin-bottom: 15px;
 html {
 	height: 100%;
 	widthd: 100%;
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) repeat fixed; 
-	background-position: center center;
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
+	
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 	margin-right:auto;
 	margin-bottom:auto;
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+       
 	background-color:#2F4F4F;
         margin:0px;
 	overflow-y: scroll;
