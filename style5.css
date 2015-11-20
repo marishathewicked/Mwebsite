@@ -18,8 +18,8 @@ body {
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-sizeb: cover;
-	background-color:#747D82;
+        background-size: contain;
+	background-colorf:#747D82;
 	margin:0px;
 	font-family:Verdana;
 	font-size:11px;
