@@ -111,7 +111,7 @@ body {
 	background-attachment: scroll;
 	background-color:#FFF;
 	position:absolute;
-	background:url(../images/cnt.jpg) repeat-y;	
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
 	margin:0 auto;
 }
 #lcnt {
