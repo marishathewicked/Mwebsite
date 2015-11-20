@@ -8,14 +8,14 @@ html {
 }
 body{
 	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat center center fixed; 
-	-webkit-background-size: 100%;
+	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 100%;
+        background-size: cover;
 	background-color:#747D82;
 	margin:0px;
 	font-family:Verdana;
-	font-sizey:11px;
+	font-size:11px;
 }
 #wrap {
 	background: url(../images/bg.jpg) center 0px no-repeat;
