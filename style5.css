@@ -1,5 +1,5 @@
 body {
-	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat center bottom ; 
+	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat center center fixed; ; 
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -7,7 +7,7 @@ body {
 	background-color:#747D82;
 	margin:0px;
 	font-family:Verdana;
-	font-size:11px;
+	font-sizey:11px;
 }
 #wrap {
 	background: url(../images/bg.jpg) center 0px no-repeat;
