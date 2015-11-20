@@ -58,9 +58,9 @@ html {
 	
     font-size: 0;
     line-height: 0;
-    vertical-align: middle;
+   
     background-size: 100%;
-    background-position: 50% 50%;
+    background-position:cover;
     background-repeat: no-repeat;
 	margin-right:auto;
 	margin-bottom:auto;
