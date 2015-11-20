@@ -1,16 +1,16 @@
 body {
-	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat center center fixed ; 
+	 background: url(../images/footer.jpg) no-repeat center center fixed ; 
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-	background-colorf:#747D82;
+	background-color:#747D82;
 	margin:0px;
 	font-family:Verdana;
 	font-size:11px;
 }
 #wrap {
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg) center 0px no-repeat;
+	background: url(../images/bg.jpg) center 0px no-repeat;
 	width:100%;
 }
 
@@ -63,6 +63,19 @@ body {
 	padding:0px;
 	margin:0px;
 	background:transparent;
+}
+#logo {
+	background:url(../images/logo.png) no-repeat;
+	width:439px;
+	height:115px;
+	position:relative;
+	top:92px;
+	left:44px;
+}
+#logo a {
+	height:100%;
+	width:100%;
+	display:block;
 }
 .mh, .mt, .mw, .mi, .pop_posts, .rss, .twitt, #TwitterCounter, #submit {
 	background:url(../images/sprite.png) no-repeat;
@@ -120,8 +133,7 @@ body {
 	color:#000;
 }
 .post p {
-	font-size:14px;
-         text-indent: 1.5em; /* Отступ первой строки */
+	font-size:12px;
 }
 .post_inf {
 	float:left;
@@ -318,11 +330,42 @@ body {
 	font-weight:normal;
 }
 .avat {
+	font-size:16px;
 	width:60px;
 	height:60px;
 	position:absolute;
 	margin:-55px 0 0 496px;
 }
+#av { 
+	position: absolute;
+	top: 50px;
+	left: 800px;
+	color: #008B8B;
+	
+}
+.av { 
+     position: absolute;
+     top: 80px;
+     left: 255px;
+     width: 40px;
+     height: 40px;
+     background-image: url();
+     background-position: top left;
+     background-repeat: no-repeat;
+     cursor: pointer;
+
+	}
+.notea {
+    font-family: arial, verdana;
+	font-size: 17px;
+    position: absolute;
+    margin:0 auto;
+	width:100%;
+	top: 25px; 
+	left: 390px;
+	text-align:center;
+	color:#fff;
+	}
 .avatar_frame {
 	width:70px;
 	height:66px;
@@ -376,17 +419,17 @@ body {
 #cmnt_frm #submit:hover {
 	color:#C3C3C3;
 }
-.cn-back{
+.submitback{
 	outline: none;
 	text-indent: -9000px;
+	border: 0;
 	width: 49px;
 	height: 42px;
-	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
 	position: absolute;
-	top: 22px;
-	left: 200px;
+	top: 90px;
+	left: 914px;
 	cursor: pointer;
-	opacity: 0;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
 	-o-transition: all 0.4s ease-in-out 0.5s;
@@ -400,7 +443,7 @@ body {
 
 .submit{
 	outline: none;
-	text-indent: -10000px;
+	text-indent: -9000px;
 	width: 49px;
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
@@ -409,7 +452,6 @@ body {
 	top: 90px;
 	left: 820px;
 	cursor: pointer;
-	opacity: ;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
 	-o-transition: all 0.4s ease-in-out 0.5s;
@@ -434,21 +476,7 @@ body {
 	-ms-transition: all 0.4s ease-in-out 0.5s;
 	transition: all 0.4s ease-in-out 0.5s;
 	}
-	.submitback{
-	outline: none;
-	text-indent: -9000px;
-	border: 0;
-	width: 49px;
-	height: 42px;
-	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
-	position: absolute;
-	top: 90px;
-	left: 914px;
-	cursor: pointer;
-	-webkit-transition: all 0.4s ease-in-out 0.5s;
-	-moz-transition: all 0.4s ease-in-out 0.5s;
-	-o-transition: all 0.4s ease-in-out 0.5s;
-	-ms-transition: all 0.4s ease-in-out 0.5s;
-	transition: all 0.4s ease-in-out 0.5s;
-}
+
+
+
 
