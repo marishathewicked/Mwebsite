@@ -93,15 +93,17 @@ body {
 /*-- Container Style --*/
 #cnt {
 	width:1000px;
-	min-height:1105px;
+	height:auto;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
 	background-color:#FFF;
-	position:relative;
-	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
+	position:absolute;
+	background:url(../images/cnt.jpg) repeat-y;	
 	margin:0 auto;
 }
 #lcnt {
 	width:710px;
-	min-height:1300px;
+	min-height:auto;
 	float:left;
 	background-color:#FFF;
 	position:relative;
