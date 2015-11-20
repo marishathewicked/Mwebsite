@@ -11,12 +11,6 @@ html {
 	overflow-x: hidden;
 }
 body{
-	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer2.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-	background-color:#8470FF;
 	margin:0px;
 	font-family:Verdana;
 	font-size1:11px;
