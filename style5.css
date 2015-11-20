@@ -54,8 +54,8 @@ margin-bottom: 15px;
 html {
 	height: 100%;
 	widthd: 100%;
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeats fixeds; 
-	background-positionw: center center;
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) repeat fixed; 
+	background-position: center center;
 	margin-right:auto;
 	margin-bottom:auto;
 	-webkit-background-size: cover;
