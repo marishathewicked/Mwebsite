@@ -6,7 +6,10 @@ html {
         -o-background-size: cover;
         background-size: cover;
 	background-color:#2F4F4F;
-	margin:0px;
+        margin:0;
+	padding:0;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 body2{
 	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat center center fixed; 
