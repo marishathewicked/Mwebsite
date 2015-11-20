@@ -10,7 +10,7 @@ html {
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
-body2{
+body{
 	 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
         -moz-background-size: cover;
@@ -19,7 +19,7 @@ body2{
 	background-color:#8470FF;
 	margin:0px;
 	font-family:Verdana;
-	font-size:11px;
+	font-size1:11px;
 	overflow-x: hidden;
 }
 #wrap {
