@@ -523,9 +523,9 @@ body{
 @media screen and (max-width: 767px) {
 		html{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
-		background-size: cover;
-    background-position:cover;
-    background-repeat: no-repeat;
+		background-size3: cover;
+    background-position3:cover;
+    background-repeat3: no-repeat;
 		}
 
 }
@@ -534,9 +534,9 @@ body{
 @media screen and (max-width: 480px) {
 		html{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
-		background-size: cover;
-    background-position:cover;
-    background-repeat: no-repeat;
+		background-size3: cover;
+    background-position3:cover;
+    background-repeat3: no-repeat;
 		}
 
 }
