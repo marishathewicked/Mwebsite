@@ -28,6 +28,7 @@ fieldset,img {
 }
 html {
 	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
+	background-size:cover;
    
 }
 body{
