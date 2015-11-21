@@ -127,14 +127,14 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	text-decoration:underline;
 }
 #av { 
-	position: relative;
+	position: absolute;
 	top: 50px;
 	left: 800px;
 	color: #008B8B;
 }
 
 .av { 
-     position: relative;
+     position: absolute;
      top: 80px;
      left: 255px;
      width: 40px;
