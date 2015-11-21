@@ -22,7 +22,7 @@ html,body {
  html {
         max-width: 100%;
         height: auto;
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg) no-repeat center center fixed; 
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg) no-repeat fixed; 
 	background-size:cover;
    
 }
