@@ -61,7 +61,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	background-repeat: repeat-y;
 	background-attachment: scroll;
 	background-color:#FFF;
-	position:absolute;
+	position:relative;
 	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
 	margin:0 auto;
 }
@@ -127,14 +127,14 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 }
 
 #av { 
-	position: relative;
+	position: fixed;
 	top: 50px;
 	left: 800px;
 	color: #008B8B;
 	
 }
 .av { 
-     position: relative;
+     position: fixed;
      top: 80px;
      left: 255px;
      width: 40px;
@@ -148,7 +148,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 .notea {
     font-family: arial, verdana;
 	font-size: 17px;
-    position: absolute;
+    position: fixed;
     margin:0 auto;
 	width:100%;
 	top: 25px; 
@@ -163,7 +163,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	width: 49px;
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
-	position: relative;
+	position: fixed;
 	top: 90px;
 	left: 914px;
 	cursor: pointer;
@@ -185,7 +185,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
 	border: 0;
-	position: relative;
+	position: fixed;
 	top: 90px;
 	left: 820px;
 	cursor: pointer;
@@ -203,7 +203,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	height: 45px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/home.png) no-repeat center center;
 	border: 0;
-	position: relative;
+	position: fixed;
 	top: 84px;
 	left: 867px;
 	cursor: pointer;
