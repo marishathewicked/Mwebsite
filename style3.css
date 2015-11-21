@@ -97,16 +97,7 @@ body{
 .post_inf a:hover {
 	text-decoration:underline;
 }
-.posn {
-	font-style:italic;
-}
-.posc {
-	font-weight:bold;
-}
-.pagi {
-	width:622px;	
-	margin:50px 0 0 47px;
-}
+
 #rcnt {
 	width:290px;
 	float:left;
