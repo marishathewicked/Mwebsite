@@ -134,7 +134,9 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	position: absolute;
 	top: 45px;
 	left: 800px;
-	color: #008B8B;
+	color: #6A5ACD;
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center 0px no-repeat;
+	width:100%;
 }
 
 .av { 
