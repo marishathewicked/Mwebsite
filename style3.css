@@ -128,51 +128,7 @@ body{
 	text-decoration:underline;
 }
 /*-- Footer Style --*/
-#foo {
-	height:322px;
-}
-#foo_d {
-	width:1000px;
-	position:absolute;
-	left:50%;
-	margin-left:-500px;
-}
-#foo_menu {
-	position:absolute;
-	top:30px;
-	left:84px;
-}
-#foo_menu a {
-	color:#FFF;
-	font-weight:bold;
-	text-decoration:none;
-	opacity:0.7;
-	filter:alpha(opacity=70);
-	font-size:15px;
-	margin:0 6px 0 6px;
-}
-#foo_menu a:hover {
-	opacity:1;
-	filter:alpha(opacity=100);
-}
-#foo_menu span {
-	color:#FFF;
-	font-weight:bold;
-	font-size:15px;
-}
-#foo p {
-	color:#FFF;
-	margin:70px 0 0 90px;
-	font-size:12px;
-}
-#foo_d p a {
-	color:#FFF;
-	text-decoration:none;
-	padding:3px 112px 6px 0px;
-}
-#foo_d p a:hover {
-	text-decoration:underline;
-}
+
 /* -- Article Style -- */
 #lcnt h2 {
 	margin:40px 0 0 70px;
