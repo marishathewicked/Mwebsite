@@ -525,7 +525,7 @@ body{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
 		background-size3: cover;
     background-position3:cover;
-    background-repeat3: no-repeat;
+    background-repeat: repeat;
 		}
 
 }
@@ -536,7 +536,7 @@ body{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
 		background-size3: cover;
     background-position3:cover;
-    background-repeat3: no-repeat;
+    background-repeat: repeat;
 		}
 
 }
