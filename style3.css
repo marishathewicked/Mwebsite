@@ -26,20 +26,9 @@ table {
 fieldset,img { 
 	border:0;
 }
-htmle {
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg) fixed; 
-    background-size: cover;
-    background-position:cover;
-    background-repeat: repeat;
-	margin-right:0;
-	margin-bottom:0;
-	-webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-       	background-color:#2F4F4F;
-        margin:0px;
-	overflow-y: scroll;
-	overflow-x: hidden;
+html {
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg); 
+   
 }
 body{
 	margin:0px;
