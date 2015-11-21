@@ -514,7 +514,7 @@ body{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center center;
 		background-size4: cover;
     background-position4:cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 		}
 
 }
