@@ -22,16 +22,6 @@ html,body {
  html {
         max-width: 100%;
         height: auto;
- }
-
-table {
-	border-collapse:collapse;
-	border-spacing:0;
-}
-fieldset,img { 
-	border:0;
-}
-html {
 	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg) fixed; 
 	background-size:cover;
    
@@ -245,7 +235,7 @@ background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
-  lcnt {
+  #lcnt {
 	width:710px;
 	min-height:auto;
 	float:left;
