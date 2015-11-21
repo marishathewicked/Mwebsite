@@ -254,13 +254,8 @@ background-attachment:fixed;
 }
 body{
 	max-width: 100%;
-        max-height: 1000px;
-background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer77.jpg)repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
+        min-height: 1000px;
+
 		}
 
 
