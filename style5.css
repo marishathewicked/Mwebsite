@@ -518,22 +518,29 @@ body{
 	transition: all 0.4s ease-in-out 0.5s;
 	}
 /* Large desktops and laptops */
-/*@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
-		}
-
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:50% 50%;
+background-attachment:fixed;
 }*/
 
 /* Landscape tablets and medium desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bgr-min.jpg) center center;
-		background-size4: cover;
-    background-position4:cover;
-    background-repeat: repeat;
-		}
-
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:50% 50%;
+background-attachment:fixed;
 }
 
 /* Portrait tablets and small desktops Мой samsung */
@@ -561,30 +568,41 @@ background-size: cover;
 /* Landscape phones and portrait tablets */
 @media screen and (max-width: 767px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/header.jpg) center center;
-		background-size3: cover;
-    background-position3:cover;
-    background-repeat: repeat;
-		}
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:50% 50%;
+background-attachment:fixed;
 
 }
 
 /* Portrait phones and smaller */
 @media screen and (max-width: 480px) {
-		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg) center center;
-		background-size3: cover;
-    background-position3:cover;
-    background-repeat: repeat;
-		}
-
+			html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:50% 50%;
+background-attachment:fixed;
 }
 
 /* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min) {
-		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) 
-		}
+@media (min-width: @screen-lg-min) {
+			html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:50% 50%;
+background-attachment:fixed;
 
 }*/
 
