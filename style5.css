@@ -1,4 +1,4 @@
-html {
+html3 {
 	height: 100%;
 	width: 100%;
 	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
@@ -501,8 +501,8 @@ body{
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 		html{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center center;
-		background-size: cover;
-    background-position:cover;
+		background-size4: cover;
+    background-position4:cover;
     background-repeat: repeat;
 		}
 
@@ -512,8 +512,8 @@ body{
 @media screen and (min-width: 768px) and (max-width: 991px) {
 		html{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center center;
-		background-size: cover;
-    background-position:cover;
+		background-size4: cover;
+    background-position4:cover;
     background-repeat: repeat;
 		}
 
