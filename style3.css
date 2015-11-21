@@ -135,8 +135,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	top: 45px;
 	left: 800px;
 	color: #6A5ACD;
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center 0px no-repeat;
-	width:100%;
+
 }
 
 .av { 
@@ -146,6 +145,8 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
      width: 40px;
      height: 40px;
      cursor: pointer;
+     	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center 0px no-repeat;
+	width:100%;
 
 	}
 .notea {
