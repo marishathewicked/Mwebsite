@@ -145,7 +145,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 .notea {
     font-family: arial, verdana;
 	font-size: 17px;
-    position:relative;
+    position:absolute;
     margin:0 auto;
 	width:100%;
 	top: 20px; 
