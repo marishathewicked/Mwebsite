@@ -163,6 +163,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	text-align:center;
 	color:#fff;
 	}
+}
 .submitback{
 	outline: none;
 	text-indent: -9000px;
@@ -170,15 +171,19 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	width: 49px;
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
-	position: fixed;
-	top: 13%;
-	left: 84%;
+	position: absolute;
+	top: 90px;
+	left: 914px;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
 	-o-transition: all 0.4s ease-in-out 0.5s;
 	-ms-transition: all 0.4s ease-in-out 0.5s;
 	transition: all 0.4s ease-in-out 0.5s;
+}
+.cn-slide:target .cn-back{
+	left: 3px;
+	opacity: 1;
 }
 
 .submit{
@@ -188,9 +193,9 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
 	border: 0;
-	position: fixed;
-	top: 13%;
-	left: 76%;
+	position: absolute;
+	top: 90px;
+	left: 820px;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
@@ -206,9 +211,9 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	height: 45px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/home.png) no-repeat center center;
 	border: 0;
-	position: fixed;
-	top: 12%;
-	left: 80%;
+	position: absolute;
+	top: 84px;
+	left: 867px;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
