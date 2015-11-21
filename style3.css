@@ -27,7 +27,7 @@ fieldset,img {
 	border:0;
 }
 html {
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg) fixed; 
     background-size: cover;
     background-position:cover;
     background-repeat: repeat;
@@ -517,12 +517,12 @@ body{
 /* Large desktops and laptops */
 @media screen and (min-width: 1200px) {
 	html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-repeat:no-repeat;
+background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }*/
@@ -530,12 +530,12 @@ background-attachment:fixed;
 /* Landscape tablets and medium desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-repeat:no-repeat;
+background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
@@ -543,17 +543,17 @@ background-attachment:fixed;
 /* Portrait tablets and small desktops Мой samsung */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-repeat:no-repeat;
+background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
 body23{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg)no-repeat center center fixed;
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg)repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -565,12 +565,12 @@ background-size: cover;
 /* Landscape phones and portrait tablets */
 @media screen and (max-width: 767px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-repeat:no-repeat;
+background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 
@@ -579,12 +579,12 @@ background-attachment:fixed;
 /* Portrait phones and smaller */
 @media screen and (max-width: 480px) {
 			html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-repeat:no-repeat;
+background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
@@ -592,12 +592,12 @@ background-attachment:fixed;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
 			html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-repeat:no-repeat;
+background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 
