@@ -1,7 +1,7 @@
 html {
 	height: 100%;
 	width: 100%;
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed bottom; 
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
     background-size: cover;
     background-position:cover;
     background-repeat: no-repeat;
@@ -500,7 +500,7 @@ body{
 /* Landscape tablets and medium desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center center;
 		background-size: cover;
     background-position:cover;
     background-repeat: repeat;
@@ -511,7 +511,7 @@ body{
 /* Portrait tablets and small desktops */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center center;
 		background-size: cover;
     background-position:cover;
     background-repeat: repeat;
@@ -522,7 +522,7 @@ body{
 /* Landscape phones and portrait tablets */
 @media screen and (max-width: 767px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center center;
 		background-size3: cover;
     background-position3:cover;
     background-repeat: repeat;
@@ -533,7 +533,7 @@ body{
 /* Portrait phones and smaller */
 @media screen and (max-width: 480px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center center;
 		background-size3: cover;
     background-position3:cover;
     background-repeat: repeat;
@@ -544,7 +544,7 @@ body{
 /* Large devices (large desktops, 1200px and up) */
 /*@media (min-width: @screen-lg-min) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) 
 		}
 
 }*/
