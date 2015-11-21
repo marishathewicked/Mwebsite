@@ -37,6 +37,9 @@ body{
 	font-size1:11px;
 	overflow-x: hidden;
 }
+#layer {
+background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg); 	
+}
 #wrap {
 	background: url(../images/bg.jpg) center 0px no-repeat;
 	width:100%;
