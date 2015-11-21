@@ -510,7 +510,7 @@ body{
 
 /* Portrait tablets and small desktops Мой samsung */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-		body{
+		html{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bgr-min.jpg)no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -520,7 +520,6 @@ background-size: cover;
 
 		}
 
-}
 
 /* Landscape phones and portrait tablets */
 @media screen and (max-width: 767px) {
