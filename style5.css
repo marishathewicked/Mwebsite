@@ -491,31 +491,49 @@ body{
 	}
 /* Large desktops and laptops */
 @media screen and (min-width: 1200px) {
+	body{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		}
 
 }
 
 /* Landscape tablets and medium desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+		body{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		}
 
 }
 
 /* Portrait tablets and small desktops */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+		body{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		}
 
 }
 
 /* Landscape phones and portrait tablets */
 @media screen and (max-width: 767px) {
+		body{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		}
 
 }
 
 /* Portrait phones and smaller */
 @media screen and (max-width: 480px) {
+		body{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		}
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
+		body{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)
+		}
 
 }
 
