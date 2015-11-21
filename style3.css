@@ -141,39 +141,7 @@ body{
 #lcnt h2 a:hover {
 	text-decoration:underline;
 }
-.comments {
-	width:622px;	
-	margin:50px 0 0 47px;
-}
-.comment {
-	margin:0 0 50px 0;
-}
-.comm_hdr, #cmnt_frm {
-	background:url(../images/form.jpg) no-repeat;
-}
-.comm_hdr {
-	background-position: 0 0;
-	width:615px;
-	height:37px;
-	padding:15px 0 0 0;
-}
-.comm_hdr p {
-	margin:0 0 0 23px;
-	font-size:14px;
-	font-weight:bold;
-}
-.comm_hdr span {
-	font-size:12px;
-	color:#8F8E8D;
-	font-weight:normal;
-}
-.avat {
-	font-size:16px;
-	width:60px;
-	height:60px;
-	position:absolute;
-	margin:-55px 0 0 496px;
-}
+
 #av { 
 	position: absolute;
 	top: 50px;
@@ -204,59 +172,6 @@ body{
 	text-align:center;
 	color:#fff;
 	}
-.avatar_frame {
-	width:70px;
-	height:66px;
-	position:absolute;
-	left:-5px;
-}
-.comm_txt {
-	margin:10px 0 0 23px;
-	font-size:12px;
-}
-#cmnt_frm {
-	background-position:0 -100px;
-	width:615px;
-	height:370px;
-	margin:20px 0 20px 47px;
-	padding:25px 0 0 0;
-}
-#cmnt_frm input {
-	background-color:#FFF;
-	margin:0 10px 0 0;
-	padding:5px 0 0 5px;
-	border:0px none;
-	height:24px;
-	width:246px;
-}
-#cmnt_frm p {
-	margin:10px 0 10px 35px;
-	font-weight:bold;
-}
-#cmnt_frm span {
-	font-weight:normal;
-}
-#cmnt_frm textarea {
-	background-color:#FFF;
-	margin:0 10px 0 0;
-	padding:5px 0 0 5px;
-	border:0px none;
-}
-#cmnt_frm #submit {
-	background-position:0 -560px;
-	width:149px;
-	height:33px;
-	background-color:transparent;
-	color:#FFF;
-	font-weight:bold;
-	padding:0px;
-	float:right;
-	margin:0 30px 0 0;
-	cursor:pointer;
-}
-#cmnt_frm #submit:hover {
-	color:#C3C3C3;
-}
 .submitback{
 	outline: none;
 	text-indent: -9000px;
