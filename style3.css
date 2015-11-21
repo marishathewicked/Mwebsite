@@ -164,8 +164,8 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
 	position: fixed;
-	top: 5%;
-	left: 93%;
+	top: 13%;
+	left: 84%;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
@@ -182,8 +182,8 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
 	border: 0;
 	position: fixed;
-	top: 5%;
-	left: 83%;
+	top: 13%;
+	left: 76%;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
@@ -200,8 +200,8 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/home.png) no-repeat center center;
 	border: 0;
 	position: fixed;
-	top: 4.5%;
-	left: 88%;
+	top: 12%;
+	left: 80%;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
