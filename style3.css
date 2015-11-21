@@ -241,6 +241,13 @@ background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
+  lcnt {
+	width:810px;
+	min-height:auto;
+	float:left;
+	background-color:#FFF;
+	position:absolute;
+}
 body23{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg)repeat center center fixed;
 -webkit-background-size: cover;
