@@ -21,7 +21,7 @@ html,body {
 }
  html {
         max-width: 100%;
-        height: 100%;
+        height: auto;
  }
 
 table {
@@ -254,7 +254,7 @@ background-attachment:fixed;
 }
 body{
 	max-width: 100%;
-        height: auto;
+        max-height: 1000px;
 background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer77.jpg)repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
