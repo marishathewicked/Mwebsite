@@ -242,11 +242,11 @@ background-position:center;
 background-attachment:fixed;
 }
   lcnt {
-	width:810px;
+	width:710px;
 	min-height:auto;
 	float:left;
 	background-color:#FFF;
-	position:absolute;
+	position:fixed;
 }
 body23{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg)repeat center center fixed;
