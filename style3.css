@@ -60,7 +60,7 @@ body{
 	min-height:auto;
 	float:left;
 	background-color:#FFF;
-	position:absolute;
+	position:relative;
 }
 .post {
 	width:622px;	
