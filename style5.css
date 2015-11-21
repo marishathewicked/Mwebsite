@@ -1,8 +1,8 @@
 html {
 	height: 100%;
 	widthd: 100%;
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
-    background-size: 100%;
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed bottom; 
+    background-size: cover;
     background-position:cover;
     background-repeat: no-repeat;
 	margin-right:auto;
