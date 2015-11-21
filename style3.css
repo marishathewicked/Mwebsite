@@ -27,6 +27,18 @@ body{
 	font-size1:11px;
 	overflow-x: hidden;
 }
+	html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:repeat;
+background-position:center;
+background-attachment:fixed;
+}
+
+
 /*-- Header Style --*/
 #hdr {
 	width:1000px;
@@ -203,7 +215,7 @@ background-size: cover;
 background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
-}*/
+}
 
 /* Landscape tablets and medium desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
