@@ -27,7 +27,7 @@ fieldset,img {
 	border:0;
 }
 html {
-	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg); 
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg) fixed; 
    
 }
 body{
