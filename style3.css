@@ -39,10 +39,10 @@ background-repeat:repeat;
 background-position:absolute;
 background-attachment:fixed;
 }
-#layer {
+#layer6 {
     z-index: -1; /* Порядок слоев */
     width: auto; /* Ширина слоя с фоном */
-    height: auto%; /* Высота слоя с фоном */
+    height: auto; /* Высота слоя с фоном */
     position: absolute; /* Абсолютное позиционирование */
     left: 0; /* Положение от левого края окна */
     top: 0; /* Положение от верхнего края */	
@@ -50,7 +50,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 }
 #wrap {
 	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center 0px no-repeat;
-	width:auto;
+	width:100%;
 	height:auto;
 }
 
