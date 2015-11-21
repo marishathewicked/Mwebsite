@@ -35,7 +35,7 @@ body{
 -o-background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
-background-position:;
+background-position:absolute;
 background-attachment:fixed;
 }
 
