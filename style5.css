@@ -510,7 +510,7 @@ body{
 
 /* Portrait tablets and small desktops Мой samsung */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-		html{
+		body{
 		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg)no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
