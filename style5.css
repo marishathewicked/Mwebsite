@@ -26,13 +26,13 @@ table {
 fieldset,img { 
 	border:0;
 }
-body {
+html {
 	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
     background-size: cover;
     background-position:cover;
     background-repeat: no-repeat;
-	margin-right:auto;
-	margin-bottom:auto;
+	margin-right:0;
+	margin-bottom:0;
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
