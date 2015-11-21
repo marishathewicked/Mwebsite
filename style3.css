@@ -235,20 +235,7 @@ background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
-  #lcnt {
-	width:710px;
-	min-height:auto;
-	float:left;
-	background-color:#FFF;
-	position:fixed;
-}
-body{
-	max-width: 100%;
-        min-height: 1000px;
-
-		}
-
-
+ 
 /* Landscape phones and portrait tablets */
 @media screen and (max-width: 767px) {
 		html{
