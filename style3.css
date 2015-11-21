@@ -135,8 +135,8 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 }
 .av { 
      position: fixed;
-     top: 80px;
-     left: 390px;
+     top: 10%;
+     left: 84%;
      width: 40px;
      height: 40px;
      background-image: url();
@@ -151,8 +151,8 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
     position: fixed;
     margin:0 auto;
 	width:100%;
-	top: 25px; 
-	left: 390px;
+	top: 7%; 
+	left: 84%;
 	text-align:center;
 	color:#fff;
 	}
