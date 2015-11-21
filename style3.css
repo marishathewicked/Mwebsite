@@ -127,14 +127,14 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 	text-decoration:underline;
 }
 #av { 
-	position: absolute;
+	position: relative;
 	top: 45px;
 	left: 800px;
 	color: #008B8B;
 }
 
 .av { 
-     position: absolute;
+     position: relative;
      top: 75px;
      left: 255px;
      width: 40px;
@@ -145,7 +145,7 @@ background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/fo
 .notea {
     font-family: arial, verdana;
 	font-size: 17px;
-    position: absolute;
+    position: relative;
     margin:0 auto;
 	width:100%;
 	top: 20px; 
