@@ -1,0 +1,604 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0px;
+	padding:0px;
+	height: 100%;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+html {
+	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) fixed; 
+    background-size: cover;
+    background-position:cover;
+    background-repeat: no-repeat;
+	margin-right:0;
+	margin-bottom:0;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+       	background-color:#2F4F4F;
+        margin:0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+body{
+	margin:0px;
+	font-family:Verdana;
+	font-size1:11px;
+	overflow-x: hidden;
+}
+#wrap {
+	background: url(../images/bg.jpg) center 0px no-repeat;
+	width:100%;
+}
+
+#main {
+	margin:0px auto;
+	width:1000px;
+	min-height:1809px;
+}
+/*-- Header Style --*/
+#hdr {
+	width:1000px;
+	height:288px;
+	margin:0 auto;
+}
+#hdl {
+	width:240px;
+	height:26px;
+	margin:0px 0 0 500px;
+	padding:14px 0 0 0;	
+	float:left;
+}
+#hdl a {
+	text-decoration:none;
+	color:#FFF;
+	margin-right:18px;
+	font-weight:bold;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+#hdl a:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#search_form {
+	float:left;
+	margin:10px 0 0 4px;
+}
+#s {
+	width:180px;
+	background:transparent;
+	border:0px none;
+	font-weight:bold;
+}
+#searchsubmit {
+	border:0px none;
+	margin:0 0 0 3px;
+	width:26px;
+	height:24px;
+	cursor:pointer;
+	padding:0px;
+	margin:0px;
+	background:transparent;
+}
+#logo {
+	background:url(../images/logo.png) no-repeat;
+	width:439px;
+	height:115px;
+	position:relative;
+	top:92px;
+	left:44px;
+}
+#logo a {
+	height:100%;
+	width:100%;
+	display:block;
+}
+.mh, .mt, .mw, .mi, .pop_posts, .rss, .twitt, #TwitterCounter, #submit {
+	background:url(../images/sprite.png) no-repeat;
+}
+#menu {
+	width:460px;
+	height:60px;
+	margin:91px 0 0 500px;
+}
+#menu a {
+	text-align:center;
+	display:block;
+	float:left;
+	padding:43px 0 0 0;
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+	font-size:16px;
+	margin:0 30px 0 0;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+#menu a:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+/*-- Container Style --*/
+#cnt {
+	width:1000px;
+	height:auto;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-color:#FFF;
+	position:absolute;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
+	margin:0 auto;
+}
+#lcnt {
+	width:710px;
+	min-height:auto;
+	float:left;
+	background-color:#FFF;
+	position:relative;
+}
+.post {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+.post h1 {
+	font-size:29px;
+}
+.post h1 a {
+	text-decoration:none;
+	color:#000;
+}
+.post p {
+	font-size:12px;
+}
+.post_inf {
+	float:left;
+	border-right:1px solid;
+	text-align:right;
+	margin:0 15px 0 0;
+	padding:10px 0 0 0;
+	height:64px;
+}
+.post_inf span {
+	margin: 0 20px 0 0;
+	font-size:14px;
+}
+.post_inf a {
+	margin: 0 20px 0 0;
+	font-size:14px;
+	text-decoration:none;	
+	color:#000;
+}
+.post_inf a:hover {
+	text-decoration:underline;
+}
+.posn {
+	font-style:italic;
+}
+.posc {
+	font-weight:bold;
+}
+.pagi {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+#rcnt {
+	width:290px;
+	float:left;
+	position:relative;
+}
+.rss_twitt {
+	background:url(../images/rss_twitt_bg.png) no-repeat;
+	width:220px;
+	height:100px;
+	margin:10px 0 0 35px;
+}
+.rss {
+	background-position:30px -274px;
+	width:94px;
+	height:28px;
+	float:left;
+	padding:78px 0 0 16px;
+	display:block;
+}
+#TwitterCounter {
+	background-position:14px -414px;
+	width:110px;
+	height:28px;
+	float:left;
+	padding:78px 0 0 0px;
+	display:block;
+}
+#rcnt h2 {
+	margin:30px 0 15px 20px;
+}
+#rcnt img {
+	border:0px none;
+}
+
+.l_lnk {
+	margin:15px 0 0 20px;
+	width:260px;
+	height:260px;
+}
+.l_lnk a {
+	margin:0 10px 10px 0;
+	float:left;
+}
+.l_lnk div {
+	width:120px;
+	height:80px;
+	text-align:center;
+	background-color:#758792;
+	float:left;
+	font-size:18px;
+	padding:40px 0 0 0;
+}
+.l_lnk div a {
+	color:#8D9EA9;
+	text-decoration:none;
+	float:none;
+}
+.l_lnk div a:hover {
+	tehxt-decoration:underline;
+}
+.wall {
+	margin:10px 0 0 20px;
+	display:block;
+}
+.pop_posts {
+	background-position: 0 -620px;
+	margin:5px 0 5px 20px;
+	padding:0 0 0 26px;
+	display:block;
+	height:27px;
+	text-decoration:none;
+	color:#000;
+	line-height:14px;
+	width:224px;
+	font-size:12px;
+}
+.pop_posts:hover {
+	text-decoration:underline;
+}
+/*-- Footer Style --*/
+#foo {
+	height:322px;
+}
+#foo_d {
+	width:1000px;
+	position:absolute;
+	left:50%;
+	margin-left:-500px;
+}
+#foo_menu {
+	position:absolute;
+	top:30px;
+	left:84px;
+}
+#foo_menu a {
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	font-size:15px;
+	margin:0 6px 0 6px;
+}
+#foo_menu a:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#foo_menu span {
+	color:#FFF;
+	font-weight:bold;
+	font-size:15px;
+}
+#foo p {
+	color:#FFF;
+	margin:70px 0 0 90px;
+	font-size:12px;
+}
+#foo_d p a {
+	color:#FFF;
+	text-decoration:none;
+	padding:3px 112px 6px 0px;
+}
+#foo_d p a:hover {
+	text-decoration:underline;
+}
+/* -- Article Style -- */
+#lcnt h2 {
+	margin:40px 0 0 70px;
+	font-size:22px;
+}
+#lcnt h2 a {
+	text-decoration:none;
+	color:#828180;
+}
+#lcnt h2 a:hover {
+	text-decoration:underline;
+}
+.comments {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+.comment {
+	margin:0 0 50px 0;
+}
+.comm_hdr, #cmnt_frm {
+	background:url(../images/form.jpg) no-repeat;
+}
+.comm_hdr {
+	background-position: 0 0;
+	width:615px;
+	height:37px;
+	padding:15px 0 0 0;
+}
+.comm_hdr p {
+	margin:0 0 0 23px;
+	font-size:14px;
+	font-weight:bold;
+}
+.comm_hdr span {
+	font-size:12px;
+	color:#8F8E8D;
+	font-weight:normal;
+}
+.avat {
+	font-size:16px;
+	width:60px;
+	height:60px;
+	position:absolute;
+	margin:-55px 0 0 496px;
+}
+#av { 
+	position: absolute;
+	top: 50px;
+	left: 800px;
+	color: #008B8B;
+	
+}
+.av { 
+     position: absolute;
+     top: 80px;
+     left: 255px;
+     width: 40px;
+     height: 40px;
+     background-image: url();
+     background-position: top left;
+     background-repeat: no-repeat;
+     cursor: pointer;
+
+	}
+.notea {
+    font-family: arial, verdana;
+	font-size: 17px;
+    position: absolute;
+    margin:0 auto;
+	width:100%;
+	top: 25px; 
+	left: 390px;
+	text-align:center;
+	color:#fff;
+	}
+.avatar_frame {
+	width:70px;
+	height:66px;
+	position:absolute;
+	left:-5px;
+}
+.comm_txt {
+	margin:10px 0 0 23px;
+	font-size:12px;
+}
+#cmnt_frm {
+	background-position:0 -100px;
+	width:615px;
+	height:370px;
+	margin:20px 0 20px 47px;
+	padding:25px 0 0 0;
+}
+#cmnt_frm input {
+	background-color:#FFF;
+	margin:0 10px 0 0;
+	padding:5px 0 0 5px;
+	border:0px none;
+	height:24px;
+	width:246px;
+}
+#cmnt_frm p {
+	margin:10px 0 10px 35px;
+	font-weight:bold;
+}
+#cmnt_frm span {
+	font-weight:normal;
+}
+#cmnt_frm textarea {
+	background-color:#FFF;
+	margin:0 10px 0 0;
+	padding:5px 0 0 5px;
+	border:0px none;
+}
+#cmnt_frm #submit {
+	background-position:0 -560px;
+	width:149px;
+	height:33px;
+	background-color:transparent;
+	color:#FFF;
+	font-weight:bold;
+	padding:0px;
+	float:right;
+	margin:0 30px 0 0;
+	cursor:pointer;
+}
+#cmnt_frm #submit:hover {
+	color:#C3C3C3;
+}
+.submitback{
+	outline: none;
+	text-indent: -9000px;
+	border: 0;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
+	position: absolute;
+	top: 90px;
+	left: 914px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+}
+.cn-slide:target .cn-back{
+	left: 3px;
+	opacity: 1;
+}
+
+.submit{
+	outline: none;
+	text-indent: -9000px;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 90px;
+	left: 820px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	
+}
+.submithome{
+	outline: none;
+	text-indent: -9000px;
+	width: 51px;
+	height: 45px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/home.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 84px;
+	left: 867px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	}
+/* Large desktops and laptops */
+@media screen and (min-width: 1200px) {
+	html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}*/
+
+/* Landscape tablets and medium desktops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+		html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}
+
+/* Portrait tablets and small desktops Мой samsung */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+		html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}
+body23{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg)no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+		}
+
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 767px) {
+		html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+			html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+			html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+
+}*/
