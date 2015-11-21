@@ -112,23 +112,6 @@ body{
 	float:left;
 	position:relative;
 }
-.pop_posts {
-	background-position: 0 -620px;
-	margin:5px 0 5px 20px;
-	padding:0 0 0 26px;
-	display:block;
-	height:27px;
-	text-decoration:none;
-	color:#000;
-	line-height:14px;
-	width:224px;
-	font-size:12px;
-}
-.pop_posts:hover {
-	text-decoration:underline;
-}
-/*-- Footer Style --*/
-
 /* -- Article Style -- */
 #lcnt h2 {
 	margin:40px 0 0 70px;
