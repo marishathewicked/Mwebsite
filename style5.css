@@ -526,7 +526,7 @@ body{
 -o-background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
-background-position:50% 50%;
+background-position:center;
 background-attachment:fixed;
 }*/
 
@@ -539,7 +539,7 @@ background-attachment:fixed;
 -o-background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
-background-position:50% 50%;
+background-position:center;
 background-attachment:fixed;
 }
 
@@ -552,7 +552,7 @@ background-attachment:fixed;
 -o-background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
-background-position:50% 50%;
+background-position:center;
 background-attachment:fixed;
 }
 body23{
@@ -574,7 +574,7 @@ background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
-background-position:50% 50%;
+background-position:center;
 background-attachment:fixed;
 
 }
@@ -588,7 +588,7 @@ background-attachment:fixed;
 -o-background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
-background-position:50% 50%;
+background-position:center;
 background-attachment:fixed;
 }
 
@@ -601,7 +601,7 @@ background-attachment:fixed;
 -o-background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
-background-position:50% 50%;
+background-position:center;
 background-attachment:fixed;
 
 }*/
