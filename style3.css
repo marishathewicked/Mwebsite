@@ -200,7 +200,7 @@ body{
 /* Large desktops and laptops */
 @media screen and (min-width: 1200px) {
 	html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/art.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
