@@ -226,7 +226,7 @@ background-attachment:fixed;
 /* Portrait tablets and small desktops Мой samsung */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 		html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer7.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer5.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
