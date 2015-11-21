@@ -37,15 +37,7 @@ body{
 	font-size1:11px;
 	overflow-x: hidden;
 }
-#layer {
-    z-index: -1; /* Порядок слоев */
-    width: 100%; /* Ширина слоя с фоном */
-    height: 100%; /* Высота слоя с фоном */
-    position: absolute; /* Абсолютное позиционирование */
-    left: 0; /* Положение от левого края окна */
-    top: 0; /* Положение от верхнего края */	
-background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg); 	
-}
+
 #wrap {
 	background: url(../images/bg.jpg) center 0px no-repeat;
 	width:100%;
