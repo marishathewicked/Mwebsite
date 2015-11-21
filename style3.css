@@ -57,7 +57,7 @@ body{
 }
 #lcnt {
 	width:710px;
-	max-height:auto;
+	min-height:auto;
 	float:left;
 	background-color:#FFF;
 	position:absolute;
