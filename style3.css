@@ -39,15 +39,6 @@ background-repeat:repeat;
 background-position:absolute;
 background-attachment:fixed;
 }
-#layer6 {
-    z-index: -1; /* Порядок слоев */
-    width: auto; /* Ширина слоя с фоном */
-    height: auto; /* Высота слоя с фоном */
-    position: absolute; /* Абсолютное позиционирование */
-    left: 0; /* Положение от левого края окна */
-    top: 0; /* Положение от верхнего края */	
-background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg); 	
-}
 #wrap {
 	background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer.jpg) center 0px no-repeat;
 	width:100%;
@@ -231,7 +222,7 @@ background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
-
+}
 /* Landscape tablets and medium desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 		html{
@@ -244,7 +235,7 @@ background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
-
+}
 /* Portrait tablets and small desktops Мой samsung */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 	body, html{
@@ -256,6 +247,15 @@ background-size: cover;
 background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
+}
+#img{
+    z-index: -1; /* Порядок слоев */
+    width: auto; /* Ширина слоя с фоном */
+    height: auto; /* Высота слоя с фоном */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; /* Положение от левого края окна */
+    top: 0; /* Положение от верхнего края */	
+}
 }
  
 /* Landscape phones and portrait tablets */
@@ -271,7 +271,7 @@ background-position:center;
 background-attachment:fixed;
 
 }
-
+}
 /* Portrait phones and smaller */
 @media screen and (max-width: 480px) {
 			html{
@@ -284,7 +284,7 @@ background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
 }
-
+}
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
 			html{
@@ -296,5 +296,5 @@ background-size: cover;
 background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
-
-}*/
+}
+}
