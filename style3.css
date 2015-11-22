@@ -81,7 +81,7 @@ background-attachment:fixed;
 	color:#000;
 }
 .post p {
-	font-size:18px;
+	font-size:26px;
 }
 .post_inf {
 	float:left;
@@ -213,7 +213,7 @@ background-attachment:fixed;
 /* Large desktops and laptops */
 @media screen and (min-width: 1200px) {
 	html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/art.jpg);
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer6.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
