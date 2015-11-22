@@ -74,7 +74,7 @@ background-attachment:fixed;
 	margin:50px 0 0 47px;
 }
 .post h1 {
-	font-size:29px;
+	font-size:35px;
 }
 .post h1 a {
 	text-decoration:none;
@@ -93,11 +93,11 @@ background-attachment:fixed;
 }
 .post_inf span {
 	margin: 0 20px 0 0;
-	font-size:14px;
+	font-size:20px;
 }
 .post_inf a {
 	margin: 0 20px 0 0;
-	font-size:14px;
+	font-size:20px;
 	text-decoration:none;	
 	color:#000;
 }
@@ -224,6 +224,19 @@ background-attachment:fixed;
 }
 .post p {
 	font-size:12px;
+}
+.post h1 {
+	font-size:29px;
+}
+.post_inf span {
+	margin: 0 20px 0 0;
+	font-size:14px;
+}
+.post_inf a {
+	margin: 0 20px 0 0;
+	font-size:14px;
+	text-decoration:none;	
+	color:#000;
 }
 }
 /* Landscape tablets and medium desktops */
