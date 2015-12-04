@@ -509,7 +509,7 @@ body{
 
 
 		.cup {
-			position:absolute;
+			position:fixed;
 			top:40%;
 			left:85%;
 			z-index:3;
@@ -518,9 +518,9 @@ body{
 			height:150px;
 			}
 			.vessel{
-				position:absolute;
-				top:184%;
-				left:-148%;
+				position:fixed;
+				top:50%;
+				left:50%;
 				z-index:3;
 				margin:-50px 0 0 -50px;
 				width:150px;
