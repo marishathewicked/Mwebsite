@@ -506,18 +506,7 @@ body{
 	-ms-transition: all 0.4s ease-in-out 0.5s;
 	transition: all 0.4s ease-in-out 0.5s;
 	}
-/* Large desktops and laptops */
-@media screen and (min-width: 1200px) {
-	html{
-		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/teaimg.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background-repeat:no-repeat;
-background-position:center;
-background-attachment:fixed;
-}*/
+
 
 		.cup {
 			position:absolute;
@@ -541,6 +530,7 @@ background-attachment:fixed;
 				border-radius:75px;
 				-webkit-box-shadow:10px 10px 60px rgba(0,0,0,.8);
 				-moz-box-shadow:10px 10px 60px rgba(0,0,0,.8);
+				-o-box-shadow:10px 10px 60px rgba(0,0,0,.8);
 				box-shadow:10px 10px 60px rgba(0,0,0,.8);
 				background:#B452CD;
 				}
@@ -657,6 +647,18 @@ background-attachment:fixed;
 			box-shadow:5px 5px 40px rgba(0,0,0,.8);
 			background:#EE7AE9;
 			}
+/* Large desktops and laptops */
+@media screen and (min-width: 1200px) {
+	html{
+		background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/teaimg.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}			
 
 /* Landscape tablets and medium desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
