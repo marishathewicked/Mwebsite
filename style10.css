@@ -509,18 +509,18 @@ body{
 
 
 		.cup {
-			position:fixed;
-			top:40%;
-			left:85%;
+			position:absolute;
+			top:200px;
+			left:600px;
 			z-index:3;
 			margin:-50px 0 0 -50px;
 			width:150px;
 			height:150px;
 			}
 			.vessel{
-				position:fixed;
-				top:50%;
-				left:50%;
+				position:absolute;
+				top:325px;
+				left:385px;
 				z-index:3;
 				margin:-50px 0 0 -50px;
 				width:150px;
@@ -611,8 +611,8 @@ body{
 					}
 			.handle {
 				position:absolute;
-				top:228%;
-				left:-53%;
+				top:400px;
+				left:520px;
 				z-index:2;
 				margin:-10px 0 0 -60px;
 				width:40px;
@@ -633,8 +633,8 @@ body{
 		/* Saucer */
 		.saucer {
 			position:absolute;
-			top:71%;
-			left:63%;
+			top:450px;
+			left:910px;
 			z-index:1;
 			margin:-50px 0 0 -50px;
 			width:200px;
