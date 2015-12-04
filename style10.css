@@ -530,8 +530,8 @@ background-attachment:fixed;
 			}
 			.vessel{
 				position:absolute;
-				top:39%;
-				left:87%;
+				top:75%;
+				left:65%;
 				z-index:3;
 				margin:-50px 0 0 -50px;
 				width:150px;
@@ -621,8 +621,8 @@ background-attachment:fixed;
 					}
 			.handle {
 				position:absolute;
-				top:50%;
-				left:97%;
+				top:88%;
+				left:75%;
 				z-index:2;
 				margin:-10px 0 0 -60px;
 				width:40px;
@@ -643,8 +643,8 @@ background-attachment:fixed;
 		/* Saucer */
 		.saucer {
 			position:absolute;
-			top:35%;
-			left:85%;
+			top:71%;
+			left:63%;
 			z-index:1;
 			margin:-50px 0 0 -50px;
 			width:200px;
