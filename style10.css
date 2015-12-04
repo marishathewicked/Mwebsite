@@ -520,7 +520,7 @@ background-attachment:fixed;
 }*/
 
 		.cup {
-			position:ab;
+			position:absolute;
 			top:40%;
 			left:85%;
 			z-index:3;
