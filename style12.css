@@ -1,0 +1,72 @@
+.dance {
+    width: 400px;
+    height: 505px;
+    overflow: visible;
+    -webkit-animation: dance-anim 2s steps(15) infinite steps(1);
+    animation: dance-anim 20s steps(15) infinite;
+	animation-duration: 20s;
+    margin-left: 200px;
+	transform-style: preserve-3d;
+}
+body {
+  margin: 20px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imgplanet.jpg);
+  font-family: HelveticaNeue, Arial, Sans-serif;
+  color: #fff;
+}
+
+.dance {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/dance5.png);
+}
+
+@-webkit-keyframes dance-anim {
+0% {background-position: -80px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	 25% {background-position: -100px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 50% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 75% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+    100% {background-position: -250px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+		
+    }
+   
+}
+
+@keyframes dance-anim {
+    0% {background-position: -80px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	 25% {background-position: -100px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 50% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 75% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+    100% {background-position: -250px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+		
+    }
+}
+
