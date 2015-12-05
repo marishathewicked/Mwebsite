@@ -274,7 +274,7 @@ body{
 
 		/* Saucer */
 		.saucer {
-			position:fixed;
+			position:absolute;
 			top:450px;
 			left:910px;
 			z-index:1;
