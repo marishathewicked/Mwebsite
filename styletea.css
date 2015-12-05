@@ -426,8 +426,8 @@
 @media screen and (max-width: 480px) {		
 			.cup {
 			position:absolute;
-			top:400px;
-			left:300px;
+			top:710px;
+			left:100px;
 			z-index:3;
 			margin:-50px 0 0 -50px;
 			width:150px;
@@ -548,8 +548,8 @@
 		/* Saucer */
 		.saucer {
 			position:absolute;
-			top:450px;
-			left:910px;
+			top:760px;
+			left:710px;
 			z-index:1;
 			margin:-50px 0 0 -50px;
 			width:200px;
@@ -568,8 +568,8 @@
 @media screen and (max-width: 767px) {		
 			.cup {
 			position:absolute;
-			top:400px;
-			left:300px;
+			top:710px;
+			left:100px;
 			z-index:3;
 			margin:-50px 0 0 -50px;
 			width:150px;
@@ -690,8 +690,8 @@
 		/* Saucer */
 		.saucer {
 			position:absolute;
-			top:450px;
-			left:910px;
+			top:760px;
+			left:710px;
 			z-index:1;
 			margin:-50px 0 0 -50px;
 			width:200px;
