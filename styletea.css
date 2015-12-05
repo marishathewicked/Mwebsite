@@ -407,8 +407,8 @@
 		/* Saucer */
 		.saucer {
 			position:absolute;
-			top:450px;
-			left:910px;
+			top:600px;
+			left:710px;
 			z-index:1;
 			margin:-50px 0 0 -50px;
 			width:200px;
