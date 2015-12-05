@@ -285,7 +285,7 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {	
 .cup {
 			position:absolute;
-			top:700px;
+			top:730px;
 			left:100px;
 			z-index:3;
 			margin:-50px 0 0 -50px;
