@@ -1,0 +1,154 @@
+.hellm {
+  top: 80px;
+  position: absolute;
+    width: 400px;
+    height: 505px;
+    overflow: visible;
+    -webkit-animation: hellm-anim 2s steps(15) infinite steps(1);
+    animation: hellm-anim 20s steps(15) infinite;
+	animation-duration: 20s;
+    margin-left: 100px;
+	transform-style: preserve-3d;
+}
+.helli {
+   position: absolute;
+    top: 60px;
+    width: 400px;
+    height: 505px;
+    overflow: visible;
+    -webkit-animation: helli-anim 2s steps(15) infinite steps(1);
+    animation: helli-anim 20s steps(15) infinite;
+	animation-duration: 20s;
+    margin-left: 600px;
+	transform-style: preserve-3d;
+}
+body {
+  margin: 20px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/hell.jpg);
+  font-family: HelveticaNeue, Arial, Sans-serif;
+  color: #fff;
+}
+
+.hellm {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/hellm3.png);
+	
+}
+.helli {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/helli2.png);
+	
+}
+
+@-webkit-keyframes hellm-anim {
+    0% {background-position: -470px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	 25% {background-position: -480px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 50% {background-position: -490px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 75% {background-position: -500px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+    100% {background-position: -520px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+		
+    }
+}
+
+@keyframes hellm-anim {
+    0% {background-position: -470px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	 25% {background-position: -480px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 50% {background-position: -490px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 75% {background-position: -500px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+    100% {background-position: -520px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+		
+    }
+}
+@-webkit-keyframes helli-anim {
+0% {background-position: -250px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
+	}
+	 15% {background-position: -270px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.65,-0.45);
+	 }
+	 30% {background-position: -280px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
+	 }
+	 45% {background-position: -300px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.45,-0.45);
+	 }
+	  65% {background-position: -310px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
+	 }
+	  85% {background-position: -320px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.55,-0.45);
+	 }
+    100% {background-position: -330px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
+	}
+	from {
+        transform:rotate(10deg);
+    }
+    to {
+        transform:rotate(260deg);
+		
+    }
+   
+}
+
+
+@keyframes helli-anim {
+0% {background-position: -250px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
+	}
+	 15% {background-position: -270px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.65,-0.45);
+	 }
+	 30% {background-position: -280px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
+	 }
+	 45% {background-position: -300px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.45,-0.45);
+	 }
+	  65% {background-position: -310px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
+	 }
+	  85% {background-position: -320px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.55,-0.45);
+	 }
+    100% {background-position: -330px;
+	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
+	}
+	from {
+        transform:rotate(10deg);
+    }
+    to {
+        transform:rotate(260deg);
+		
+    }
+   
+}
+
