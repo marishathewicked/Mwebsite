@@ -1,0 +1,394 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+body {
+	margin:0px;
+	padding:0px;
+	height: 100%;
+	margin-bottom:0%;
+	font-family:Verdana;
+	font-size:11px;
+	overflow-x: hidden;
+}
+html {
+   max-width: 100%;
+   height: auto;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/eagle.jpg);
+ 
+ 
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+#main {
+	margin:0px auto;
+	width:1000px;
+	min-height:1809px;
+}
+/*-- Header Style --*/
+#hdr {
+	width:1000px;
+	height:288px;
+	margin:0 auto;
+}
+
+/*-- Container Style --*/
+#cnt {
+	width:1000px;
+	height:auto;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-color:#FFF;
+	position:absolute;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt.jpg) repeat-y;	
+	margin:0 auto;
+}
+#lcnt {
+	width:710px;
+	min-height:auto;
+	float:left;
+	background-color:#FFF;
+	position:relative;
+}
+.post {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+.post h1 {
+	font-size:29px;
+}
+.post h1 a {
+	text-decoration:none;
+	color:#000;
+	
+}
+.post p {
+	font-size:12px;
+	
+}
+.post_inf {
+	float:left;
+	border-right:1px solid;
+	text-align:right;
+	margin:0 15px 0 0;
+	padding:10px 0 0 0;
+	height:64px;
+}
+.post_inf span {
+	margin: 0 20px 0 0;
+	font-size:14px;
+}
+.post_inf a {
+	margin: 0 20px 0 0;
+	font-size:14px;
+	text-decoration:none;	
+	color:#000;
+}
+.post_inf a:hover {
+	text-decoration:underline;
+}
+.posn {
+	font-style:italic;
+}
+.posc {
+	font-weight:bold;
+}
+.pagi {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+#rcnt {
+	width:290px;
+	float:left;
+	position:relative;
+}
+
+
+#rcnt h2 {
+	margin:30px 0 15px 20px;
+}
+#rcnt img {
+	border:0px none;
+}
+
+/* -- Article Style -- */
+#lcnt h2 {
+	margin:40px 0 0 70px;
+	font-size:22px;
+}
+#lcnt h2 a {
+	text-decoration:none;
+	color:#828180;
+}
+#lcnt h2 a:hover {
+	text-decoration:underline;
+}
+.dance {
+position:absolute;
+    width: 400px;
+    height: 505px;
+    overflow: hidden;
+    -webkit-animation: dance-anim 20s steps(15) infinite steps(1);
+    animation: dance-anim 50s steps(15) infinite;
+	animation-duration: 50s;
+    margin-left: 200px;
+
+}
+.dancei {
+    position: absolute;
+    width: 400px;
+    height: 505px;
+    overflow: hidden;
+    -webkit-animation: dancei-anim 20s steps(15) infinite steps(1);
+    animation: dancei-anim 40s steps(15) infinite;
+	animation-duration: 40s;
+	margin-top: 100px;
+    margin-left: 450px;
+	}
+.danceii {
+   position: absolute;
+    width: 400px;
+    height: 505px;
+    overflow: hidden;
+    -webkit-animation: danceii-anim 20s steps(15) infinite steps(1);
+    animation: danceii-anim 30s steps(15) infinite;
+	animation-duration: 30s;
+	margin-left: 330px;
+	margin-top: -100px;
+}
+
+.dance {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/feather.png);
+}
+.dancei {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/feather2.png);
+}
+.danceii {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/feather3.png);
+}
+
+@-webkit-keyframes dance-anim {
+0% {background-position: -80px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	 25% {background-position: -100px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 50% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 75% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+    100% {background-position: -250px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+		
+    }
+   
+}
+
+@keyframes dance-anim {
+    0% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.28,1.49,.29,-0.48);
+	}
+	 25% {background-position: -160px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.60,-0.48);
+	 }
+	 50% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.24,1.29,.39,-0.48);
+	 }
+	 75% {background-position: -230px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.19,-0.58);
+	 }
+    100% {background-position: -240px;
+	 animation-timing-function: cubic-bezier(.44,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(300deg);
+		
+    }
+}
+@-webkit-keyframes dancei-anim {
+0% {background-position: -80px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	 25% {background-position: -100px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 50% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 75% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+    100% {background-position: -250px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(30deg);
+    }
+    to {
+        transform:rotate(260deg);
+		
+    }
+   
+}
+
+@keyframes dancei-anim {
+    0% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.23,1.49,.29,-0.48);
+	}
+	 30% {background-position: -160px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.45,-0.48);
+	 }
+	 55% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.24,1.39,.39,-0.28);
+	 }
+	 80% {background-position: -230px;
+	 animation-timing-function: cubic-bezier(.34,1.49,.19,-0.68);
+	 }
+    100% {background-position: -240px;
+	 animation-timing-function: cubic-bezier(.44,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(60deg);
+    }
+    to {
+        transform:rotate(310deg);
+		
+    }
+}
+@-webkit-keyframes danceii-anim {
+0% {background-position: -80px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	 25% {background-position: -100px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 50% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+	 75% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	 }
+    100% {background-position: -250px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+		
+    }
+   
+}
+
+@keyframes danceii-anim {
+    0% {background-position: -150px;
+	 animation-timing-function: cubic-bezier(.33,1.49,.29,-0.48);
+	}
+	 15% {background-position: -160px;
+	 animation-timing-function: cubic-bezier(.24,1.40,.60,-0.45);
+	 }
+	 30% {background-position: -200px;
+	 animation-timing-function: cubic-bezier(.29,1.46,.39,-0.41);
+	 }
+	 55% {background-position: -220px;
+	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.58);
+	 }
+	 85% {background-position: -230px;
+	 animation-timing-function: cubic-bezier(.27,1.49,.19,-0.38);
+	 }
+    100% {background-position: -240px;
+	 animation-timing-function: cubic-bezier(.44,1.49,.29,-0.48);
+	}
+	from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+		
+    }
+}
+.submitback{
+	outline: none;
+	text-indent: -9000px;
+	border: 0;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
+	position: absolute;
+	top: 90px;
+	left: 914px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+}
+.cn-slide:target .cn-back{
+	left: 3px;
+	opacity: 1;
+}
+
+.submit{
+	outline: none;
+	text-indent: -9000px;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 90px;
+	left: 820px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	
+}
+.submithome{
+	outline: none;
+	text-indent: -9000px;
+	width: 51px;
+	height: 45px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/home.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 84px;
+	left: 867px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	}
