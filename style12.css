@@ -347,7 +347,9 @@ p{
 	z-index: 2;
 	margin-top: 0%; 
 	margin-left:0%;
-	
+	overflow:hidden;
+	 width: 100%;
+	height: 100%;
    -webkit-animation: boxv-anim 3s infinite ;
     animation: boxv-anim 3s infinite ;
 		}
@@ -382,6 +384,7 @@ p{
     width: 100%;
 	height: 100%;
 	display: none;
+	overflow:hidden;
  -webkit-animation: snow 30s ease-in-out ;
  -moz-animation: snow 30s ease-in-out ;
  -ms-animation: snow 30s ease-in-out ;
