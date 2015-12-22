@@ -703,9 +703,9 @@ p{
 	
 
    @keyframes move {
-   0% { transform: translateX(575px); 
+   0% { transform: translateX(50%); 
    }
-   100% { transform: translateX(-1560px); 
+   100% { transform: translateX(-200%); 
    }
 }
 
