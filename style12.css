@@ -774,10 +774,7 @@ background-attachment:fixed;
                  height: auto;
                  display: block;
 		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
