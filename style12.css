@@ -771,9 +771,19 @@ background-attachment:fixed;
 @media screen and (min-width: 768px) and (max-width: 991px) {
 		html{
 		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
-
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 		}
+		body {
+  	margin:0px;
+	padding:0px;
+	width: 100%;
+        display: block;
+   
+}
 */
 
 /* Landscape phones and portrait tablets */
