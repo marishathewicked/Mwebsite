@@ -37,13 +37,13 @@ body {
 /*-- Елочка --*/
 
 #global{
-  top: 50%;
+  top: 15%;
   left: 5%;
- position:relative;
+ position:absolute;
   }
 
 .mask{
-  position:relative;
+  position:absolute;
   border-radius:2px;
   overflow:hidden;
    perspective: 1000;
