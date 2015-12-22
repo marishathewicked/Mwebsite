@@ -343,11 +343,9 @@ p{
 .boxv {
     position: absolute;
 	z-index: 2;
-	margin-top: 0px; 
-	margin-left:0px;
-	width: 100%;
-	height: 0px;
-	text-align: center;
+	margin-top: 0%; 
+	margin-left:0%;
+	
    -webkit-animation: boxv-anim 3s infinite ;
     animation: boxv-anim 3s infinite ;
 		}
