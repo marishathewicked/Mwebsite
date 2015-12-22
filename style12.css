@@ -24,12 +24,14 @@ background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
+overflow-x: hidden;
 }
 body {
   	margin:0px;
 	padding:0px;
 	width: 100%;
         display: block;
+        overflow-x: hidden;
    
 }
 /*-- Елочка --*/
@@ -751,6 +753,7 @@ background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
+overflow-x: hidden;
 }*/
 /* Landscape tablets and medium desktops */
 /*@media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -763,6 +766,7 @@ background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
+overflow-x: hidden;
 }
 }*/
 /* Portrait tablets and small desktops Мой samsung */
@@ -772,7 +776,7 @@ background-attachment:fixed;
                  height: auto;
                  display: block;
 		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
-
+overflow-x: hidden;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
@@ -797,6 +801,7 @@ background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
+overflow-x: hidden;
 
 }
 }*/
@@ -811,6 +816,7 @@ background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
+overflow-x: hidden;
 }
 }*/
 /* Large devices (large desktops, 1200px and up) */
@@ -824,6 +830,7 @@ background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
+overflow-x: hidden;
 }
 }*/
 
