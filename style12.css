@@ -423,8 +423,8 @@ p{
 	height: 42px;
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowbackcr.png) no-repeat center center;
 	position: absolute;
-	top: 50px;
-	left: 1114px;
+	top: 5%;
+	left: 88%;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
@@ -441,8 +441,8 @@ p{
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowcr.png) no-repeat center center;
 	border: 0;
 	position: absolute;
-	top: 50px;
-	left: 1020px;
+	top: 5%;
+	left: 80%;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
@@ -460,8 +460,8 @@ p{
 	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/homecr.png) no-repeat center center;
 	border: 0;
 	position: absolute;
-	top: 44px;
-	left: 1067px;
+	top: 4.5%;
+	left: 84%;
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0.5s;
 	-moz-transition: all 0.4s ease-in-out 0.5s;
