@@ -701,16 +701,16 @@ p{
 	z-index: 2;
 	font: 50px Tahoma;
 	text-align: center;
-     left: 0% ;
+     left: 100% ;
     top: 60%;
     animation: move 10s 1 linear;
 		}
 	
 
    @keyframes move {
-   0% { transform: translateX(150%); 
+   0% { transform: translateX(0%); 
    }
-   100% { transform: translateX(-200%); 
+   100% { transform: translateX(-300%); 
    }
 }
 
