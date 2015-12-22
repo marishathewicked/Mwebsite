@@ -201,90 +201,94 @@ body {
 		-webkit-animation-delay:20s;
 		-moz-animation-delay:20s;
 }
+
+  transform: skew(-15deg, 0);
+  z-index:100;
+}
 #top{
-  width:70px;
+  width:5.4%;
   height:10px;
-  left:615px;
+  left:45%;
   top:130px;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle{
-  width:86px;
+  width:6.6%;
   height:10px;
-  left:615px;
+  left:45%;
   top:140px;
   transform: skew(-15deg, 23.7deg)
 }
 #top1{
-  width:100px;
+  width:7.7%;
   height:10px;
-  left:600px;
+  left:43.9%;
   top:150px;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle2{
-  width:113px;
+  width:8.7%;
   height:10px;
-  left:600px;
+  left:43.9%;
   top:160px;
   transform: skew(-15deg, 20.7deg)
 }
 #top3{
-  width:130px;
+  width:10.03%;
   height:10px;
-  left:585px;
+  left:42.8%;
   top:170px;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle4{
-  width:133px;
+  width:10.26%;
   height:10px;
-  left:585px;
+  left:42.8%;
   top:179px;
   transform: skew(-15deg, 18.7deg)
 }
 #top5{
-  width:160px;
+  width:12.34%;
   height:10px;
-  left:565px;
+  left:41.34%;
   top:190px;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle6{
-  width:165px;
+  width:12.73%;
   height:10px;
-  left:565px;
+  left:41.34%;
   top:198px;
   transform: skew(-15deg, 14.7deg)
 }
 #top7{
-  width:190px;
+  width:14.66%;
   height:10px;
-  left:550px;
+  left:40.24%;
   top:210px;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle8{
- width:193px;
+ width:14.89%;
   height:10px;
-  left:550px;
+  left:40.24%;
   top:220px;
   transform: skew(-15deg, 12.7deg)
 }
 #bottom{
-  width:210px;
+  width:16.2%;
   height:10px;
-  left:535px;
+  left:39.15%;
   top:230px;
   transform: skew(-15deg, 0);
   z-index:100;
