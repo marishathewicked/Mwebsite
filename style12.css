@@ -28,12 +28,9 @@ background-attachment:fixed;
 body {
   	margin:0px;
 	padding:0px;
-	height: 100%;
-	margin-bottom:0%;
-	font-family:Verdana;
-	font-size:11px;
-	overflow-x: hidden;
-    display: block;
+	width: 100%;
+        display: block;
+   
 }
 /*-- Елочка --*/
 
