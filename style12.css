@@ -71,8 +71,8 @@ body {
   animation : trans1 ease-in-out backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
-  -webkit-animation-duration: 22s;
-  animation-duration: 22s;
+  -webkit-animation-duration: 35s;
+  animation-duration: 35s;
   animation-delay:1s;
 		-o-animation-delay:1s;
 		-ms-animation-delay:1s;
@@ -82,7 +82,7 @@ body {
 #middle .plane{
   transform : translate3d(0px,0,0);  
   background : #008B00;
-  animation : trans2 22s ease-in-out infinite backwards, animColor;
+  animation : trans2 35s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay:1s;
@@ -97,30 +97,30 @@ body {
   animation : trans1 ease-in-out backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
-  -webkit-animation-duration: 21s;
-  animation-duration: 21s;
+  -webkit-animation-duration: 33s;
+  animation-duration: 33s;
   animation-delay:1s;
-		-o-animation-delay:1s;
-		-ms-animation-delay:1s;
-		-webkit-animation-delay:1s;
-		-moz-animation-delay:1s;
+		-o-animation-delay:2s;
+		-ms-animation-delay:2s;
+		-webkit-animation-delay:2s;
+		-moz-animation-delay:2s;
 }
 #middle2 .plane{
   transform : translate3d(0px,0,0);  
   background : #008B00;
-  animation : trans2 21s ease-in-out infinite backwards, animColor;
+  animation : trans2 33s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
-  animation-delay:1s;
-		-o-animation-delay:1s;
-		-ms-animation-delay:1s;
-		-webkit-animation-delay:1s;
-		-moz-animation-delay:1s;
+  animation-delay:2s;
+		-o-animation-delay:2s;
+		-ms-animation-delay:2s;
+		-webkit-animation-delay:2s;
+		-moz-animation-delay:2s;
 
 }
 #top3 .plane{
   z-index:2000;
-  animation : trans1 18s ease-in-out infinite backwards, animColor;
+  animation : trans1 30s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 5s;
@@ -132,7 +132,7 @@ body {
 #middle4 .plane{
   transform : translate3d(0px,0,0);  
   background : #008B00;
-  animation : trans2 18s ease-in-out infinite backwards, animColor;
+  animation : trans2 30s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 5s;
@@ -143,7 +143,31 @@ body {
 
 }#top5 .plane{
   z-index:2000;
-  animation : trans1 12s ease-in-out infinite backwards, animColor;
+  animation : trans1 27s ease-in-out infinite backwards, animColor;
+    -webkit-animation-iteration-count: 1; 
+  animation-iteration-count: 1; 
+  animation-delay: 8s;
+		-o-animation-delay:8s;
+		-ms-animation-delay:8s;
+		-webkit-animation-delay:8s;
+		-moz-animation-delay:8s;
+}
+#middle6 .plane{
+  transform : translate3d(0px,0,0);  
+  background : #008B00;
+  animation : trans2 27s ease-in-out infinite backwards, animColor;
+    -webkit-animation-iteration-count: 1; 
+  animation-iteration-count: 1; 
+   animation-delay: 8s;
+		-o-animation-delay:8s;
+		-ms-animation-delay:8s;
+		-webkit-animation-delay:8s;
+		-moz-animation-delay:8s;
+
+}
+#top7 .plane{
+  z-index:2000;
+  animation : trans1 25s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 10s;
@@ -152,46 +176,94 @@ body {
 		-webkit-animation-delay:10s;
 		-moz-animation-delay:10s;
 }
-#middle6 .plane{
+#middle8 .plane{
   transform : translate3d(0px,0,0);  
   background : #008B00;
-  animation : trans2 12s ease-in-out infinite backwards, animColor;
+  animation : trans2 25s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
-   animation-delay: 10s;
+    animation-delay: 10s;
 		-o-animation-delay:10s;
 		-ms-animation-delay:10s;
 		-webkit-animation-delay:10s;
 		-moz-animation-delay:10s;
 
 }
-#top7 .plane{
+#top9 .plane{
   z-index:2000;
-  animation : trans1 6s ease-in-out infinite backwards, animColor;
+  animation : trans1 22s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
-  animation-delay: 15s;
-		-o-animation-delay:15s;
-		-ms-animation-delay:15s;
-		-webkit-animation-delay:15s;
-		-moz-animation-delay:15s;
+  animation-delay: 12s;
+		-o-animation-delay:12s;
+		-ms-animation-delay:12s;
+		-webkit-animation-delay:12s;
+		-moz-animation-delay:12s;
 }
-#middle8 .plane{
+#middle10 .plane{
   transform : translate3d(0px,0,0);  
   background : #008B00;
-  animation : trans2 6s ease-in-out infinite backwards, animColor;
+  animation : trans2 22s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
-    animation-delay: 15s;
-		-o-animation-delay:15s;
-		-ms-animation-delay:15s;
-		-webkit-animation-delay:15s;
-		-moz-animation-delay:15s;
+    animation-delay: 12s;
+		-o-animation-delay:12s;
+		-ms-animation-delay:12s;
+		-webkit-animation-delay:12s;
+		-moz-animation-delay:12s;
+
+}
+#top11 .plane{
+  z-index:2000;
+  animation : trans1 19s ease-in-out infinite backwards, animColor;
+    -webkit-animation-iteration-count: 1; 
+  animation-iteration-count: 1; 
+  animation-delay: 13s;
+		-o-animation-delay:13s;
+		-ms-animation-delay:13s;
+		-webkit-animation-delay:13s;
+		-moz-animation-delay:13s;
+}
+#middle12 .plane{
+  transform : translate3d(0px,0,0);  
+  background : #008B00;
+  animation : trans2 19s ease-in-out infinite backwards, animColor;
+    -webkit-animation-iteration-count: 1; 
+  animation-iteration-count: 1; 
+    animation-delay: 13s;
+		-o-animation-delay:13s;
+		-ms-animation-delay:13s;
+		-webkit-animation-delay:13s;
+		-moz-animation-delay:13s;
+
+}
+#top13 .plane{
+  z-index:2000;
+  animation : trans1 15s ease-in-out infinite backwards, animColor;
+    -webkit-animation-iteration-count: 1; 
+  animation-iteration-count: 1; 
+  animation-delay: 16s;
+		-o-animation-delay:16s;
+		-ms-animation-delay:16s;
+		-webkit-animation-delay:16s;
+		-moz-animation-delay:16s;
+}
+#middle14 .plane{
+  transform : translate3d(0px,0,0);  
+  background : #008B00;
+  animation : trans2 15s ease-in-out infinite backwards, animColor;
+    -webkit-animation-iteration-count: 1; 
+  animation-iteration-count: 1; 
+    animation-delay: 16s;
+		-o-animation-delay:16s;
+		-ms-animation-delay:16s;
+		-webkit-animation-delay:16s;
+		-moz-animation-delay:16s;
 
 }
 #bottom .plane{
   z-index:2000;
-  animation : trans3 15s ease-in-out infinite backwards, animColor;
+  animation : trans3 35s ease-in-out infinite backwards, animColor;
   -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 20s;
@@ -200,95 +272,139 @@ body {
 		-webkit-animation-delay:20s;
 		-moz-animation-delay:20s;
 }
-
-  transform: skew(-15deg, 0);
-  z-index:100;
-}
 #top{
-  width:5.4%;
-  height:10px;
-  left:45%;
-  top:130px;
+  width:20%;
+  height:25%;
+  left:125%;
+  top:25%;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle{
-  width:6.6%;
-  height:10px;
-  left:45%;
-  top:140px;
-  transform: skew(-15deg, 23.7deg)
+  width:22%;
+  height:25%;
+  left:125%;
+  top:70%;
+  transform: skew(-15deg, 15.7deg)
 }
 #top1{
-  width:7.7%;
-  height:10px;
-  left:43.9%;
-  top:150px;
+  width:24%;
+  height:25%;
+  left:123%;
+  top:120%;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle2{
-  width:8.7%;
-  height:10px;
-  left:43.9%;
-  top:160px;
-  transform: skew(-15deg, 20.7deg)
+  width:26%;
+  height:25%;
+  left:123%;
+  top:165%;
+  transform: skew(-15deg, 13.7deg)
 }
 #top3{
-  width:10.03%;
-  height:10px;
-  left:42.8%;
-  top:170px;
+  width:28%;
+  height:25%;
+  left:121%;
+  top:215%;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle4{
-  width:10.26%;
-  height:10px;
-  left:42.8%;
-  top:179px;
-  transform: skew(-15deg, 18.7deg)
+  width:30%;
+  height:25%;
+  left:121%;
+  top:260%;
+  transform: skew(-15deg, 11.7deg)
 }
 #top5{
-  width:12.34%;
-  height:10px;
-  left:41.34%;
-  top:190px;
+ width:32%;
+  height:25%;
+  left:119%;
+  top:310%;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle6{
-  width:12.73%;
-  height:10px;
-  left:41.34%;
-  top:198px;
-  transform: skew(-15deg, 14.7deg)
+  width:34%;
+  height:25%;
+  left:119%;
+  top:355%;
+  transform: skew(-15deg, 9.7deg)
 }
 #top7{
-  width:14.66%;
-  height:10px;
-  left:40.24%;
-  top:210px;
+ width:36%;
+  height:25%;
+  left:117%;
+  top:405%;
   transform: skew(-15deg, 0);
   z-index:100;
 }
 
 #middle8{
- width:14.89%;
-  height:10px;
-  left:40.24%;
-  top:220px;
-  transform: skew(-15deg, 12.7deg)
+  width:38%;
+  height:25%;
+  left:117%;
+  top:450%;
+  transform: skew(-15deg, 7.7deg)
+}
+#top9{
+  width:40%;
+  height:25%;
+  left:115%;
+  top:495%;
+  transform: skew(-15deg, 0);
+  z-index:100;
+}
+
+#middle10{
+  width:42%;
+  height:25%;
+  left:115%;
+  top:540%;
+  transform: skew(-15deg, 6.7deg)
+}
+#top11{
+   width:44%;
+  height:25%;
+  left:113%;
+  top:590%;
+  transform: skew(-15deg, 0);
+  z-index:100;
+}
+
+#middle12{
+  width:46%;
+  height:25%;
+  left:113%;
+  top:635%;
+  transform: skew(-15deg, 6.7deg)
+}
+#top13{
+  width:48%;
+  height:25%;
+  left:111%;
+  top:680%;
+  transform: skew(-15deg, 0);
+  z-index:100;
+}
+
+#middle14{
+  width:50%;
+  height:25%;
+  left:111%;
+  top:730%;
+  transform: skew(-15deg, 6.7deg)
 }
 #bottom{
-  width:16.2%;
-  height:10px;
-  left:39.15%;
-  top:230px;
+ width:52%;
+  height:25%;
+  left:109%;
+  top:775%;
   transform: skew(-15deg, 0);
   z-index:100;
 }
@@ -304,43 +420,44 @@ p{
 
 @keyframes trans1{ 
   from { 
-    transform : translate3d(250px,0,0);
+    transform : translate3d(30%,0,0);
 	color: rgb(0,255,0);
   }
   to { 
-    transform : translate3d(-250px,0,0)
+    transform : translate3d(-30%,0,0)
   }
   0% {background-position: 0px 0px;
    	opacity: 1;
 		 }
-  100% {background-position: 500px 1000px;
+  100% {background-position: 50% 100%;
     opacity: 0;
 }
 }
 @keyframes trans2{ 
   from { 
-    transform : translate3d(260px,0,0)
+    transform : translate3d(40%,0,0)
   }
   to { 
-    transform : translate3d(-260px,0,0)
+    transform : translate3d(-40%,0,0)
   }
   0% {background-position: 0px 0px;
    	opacity: 1;
 		 }
-  100% {background-position: 500px 1000px;
+  100% {background-position: 50% 100%;
     opacity: 0;
 }
 }
 @keyframes trans3{ 
   from { 
-    transform : translate3d(220px,0,0)
+    transform : translate3d(20%,0,0)
   }
   to { 
-    transform : translate3d(-220px,0,0)
+    transform : translate3d(-20%,0,0)
   }
 
 }
-
+  
+  
 /*-- Звезды --*/
 .boxv {
     position: absolute;
