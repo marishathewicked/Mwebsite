@@ -918,8 +918,8 @@ background-attachment:fixed;
 	left: 50%;
 	width: 100%;
 	height: 100%;
-   -webkit-animation: tada-anim 10s infinite(2) ;
-  animation: tada-anim 10s infinite(2);
+   -webkit-animation: tada-anim 10s infinite ;
+  animation: tada-anim 10s infinite;
  
 }
 
