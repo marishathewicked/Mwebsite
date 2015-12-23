@@ -862,54 +862,7 @@ position: absolute;
 		 transition-timing-function: ease-in-out;
     }
 	}
-	/* Large desktops and laptops */
-
-/*@media screen and (min-width: 1200px) {
-	html{
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background-repeat:no-repeat;
-background-position:center;
-background-attachment:fixed;
-overflow-x: hidden;
-}*/
-/* Landscape tablets and medium desktops */
-/*@media screen and (min-width: 992px) and (max-width: 1199px) {
-		html{
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background-repeat:no-repeat;
-background-position:center;
-background-attachment:fixed;
-overflow-x: hidden;
-}
-}*/
-/* Portrait tablets and small desktops Мой samsung */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-		html{
-		 max-width: 100%;
-                 height: auto;
-                 display: block;
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar6.jpg);
-overflow: hidden;
-background-repeat:no-repeat;
-background-position:center;
-background-attachment:fixed;
-}
-		}
-		body {
-	margin:0px;
-	padding:0px;
-        display: block;
-   
-}
-.tada {
+	.tada {
 	position: fixed;
 	display: none;
 	z-index: -20;
@@ -976,6 +929,54 @@ background-attachment:fixed;
     transform: scale3d(1, 1, 1);
   }
 }
+	/* Large desktops and laptops */
+
+/*@media screen and (min-width: 1200px) {
+	html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}*/
+/* Landscape tablets and medium desktops */
+/*@media screen and (min-width: 992px) and (max-width: 1199px) {
+		html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+}*/
+/* Portrait tablets and small desktops Мой samsung */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+		html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar6.jpg);
+overflow: hidden;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
 
 */
 
