@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>2016</title>
         <link rel="stylesheet"  href="style12.css"> 
-         <bgsound src="https://s3.eu-central-1.amazonaws.com/marishathewicked/images/182040.mp3" hidden="true" autostart="true" loop="1" volumer="20"> 
+        <script src="/audiojs/audio.js"></script>
 		</head>
 <body>
  <div class="boxv"><img src="https://s3.eu-central-1.amazonaws.com/marishathewicked/images/snow3.png"/>
@@ -137,6 +137,11 @@ $(function(){
   <form action="http://marishathewicked.github.io/Mwebsite/index.html">
     <button type="submit" name="n3" class="submithome">Main page</button>
   </form>
+  <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
  <!-- <embed src="https://s3.eu-central-1.amazonaws.com/marishathewicked/images/182040.mp3" hidden="true" autostart="true" loop="1" volumer="20">
   </embed> -->
   <audio id="av" autoplay="autoplay" controls="controls" >
