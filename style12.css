@@ -38,7 +38,7 @@ body {
    
 }
 #av { 
-     position: relative;
+     position: absolute;
 	 z-index: 150;
      top: 2%;
      left: 1%;
