@@ -40,9 +40,8 @@ body {
 #av { 
      position: relative;
 	 z-index: 150;
-	 margin:3%;
-	 padding: 0%;
-     top: 5%;
+	 padding: 1%;
+     top: 0%;
      left: 0%;
      width: 20%;
      height:10% ;
