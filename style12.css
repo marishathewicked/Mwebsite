@@ -21,8 +21,11 @@ html{
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+-webkit-background-repeat:no-repeat;
 background-repeat:no-repeat;
+-webkit-background-position:center;
 background-position:center;
+-webkit-background-attachment:fixed;
 background-attachment:fixed;
 overflow-x: hidden;
 }
@@ -39,17 +42,15 @@ body {
 #global{
   top: 15%;
   left: 5%;
- position:absolute;
+  position:absolute;
   }
-
 .mask{
   position:absolute;
   border-radius:2px;
   overflow:hidden;
-   perspective: 1000;
+  perspective: 1000;
   backface-visibility: hidden;
 }
-
 .plane{
   background:#00CD00;
   width:600%;
@@ -60,7 +61,6 @@ body {
   z-index:100;
   perspective: 1000;
   backface-visibility: hidden;
-  
 }
  
 .animation{
@@ -69,7 +69,8 @@ body {
  #top .plane{
   z-index:2000;
   animation : trans1 ease-in-out backwards, animColor;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation : trans1 ease-in-out backwards, animColor;
+  -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   -webkit-animation-duration: 35s;
   animation-duration: 35s;
@@ -83,7 +84,8 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 35s ease-in-out infinite backwards, animColor;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation : trans2 35s ease-in-out infinite backwards, animColor;
+  -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay:1s;
 		-o-animation-delay:1s;
@@ -95,7 +97,8 @@ body {
 #top1 .plane{
   z-index:2000;
   animation : trans1 ease-in-out backwards, animColor;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation : trans1 ease-in-out backwards, animColor;
+  -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   -webkit-animation-duration: 33s;
   animation-duration: 33s;
@@ -109,7 +112,8 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 33s ease-in-out infinite backwards, animColor;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation : trans2 33s ease-in-out infinite backwards, animColor;
+  -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay:2s;
 		-o-animation-delay:2s;
@@ -121,7 +125,8 @@ body {
 #top3 .plane{
   z-index:2000;
   animation : trans1 30s ease-in-out infinite backwards, animColor;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation : trans1 30s ease-in-out infinite backwards, animColor;
+  -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 5s;
 		-o-animation-delay: 5s;
@@ -133,7 +138,8 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 30s ease-in-out infinite backwards, animColor;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation : trans2 30s ease-in-out infinite backwards, animColor;
+  -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 5s;
 		-o-animation-delay: 5s;
@@ -144,7 +150,8 @@ body {
 }#top5 .plane{
   z-index:2000;
   animation : trans1 27s ease-in-out infinite backwards, animColor;
-    -webkit-animation-iteration-count: 1; 
+  -webkit-animation : trans1 27s ease-in-out infinite backwards, animColor;
+  -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 8s;
 		-o-animation-delay:8s;
@@ -156,6 +163,7 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 27s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans2 27s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
    animation-delay: 8s;
@@ -168,6 +176,7 @@ body {
 #top7 .plane{
   z-index:2000;
   animation : trans1 25s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans1 25s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 10s;
@@ -180,6 +189,7 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 25s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans2 25s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
     animation-delay: 10s;
@@ -192,6 +202,7 @@ body {
 #top9 .plane{
   z-index:2000;
   animation : trans1 22s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans1 22s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 12s;
@@ -204,6 +215,7 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 22s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans2 22s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
     animation-delay: 12s;
@@ -216,6 +228,7 @@ body {
 #top11 .plane{
   z-index:2000;
   animation : trans1 19s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans1 19s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 13s;
@@ -228,6 +241,7 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 19s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans2 19s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
     animation-delay: 13s;
@@ -240,6 +254,7 @@ body {
 #top13 .plane{
   z-index:2000;
   animation : trans1 15s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans1 15s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 16s;
@@ -252,6 +267,7 @@ body {
   transform : translate3d(0px,0,0);  
   background : #008B00;
   animation : trans2 15s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans2 15s ease-in-out infinite backwards, animColor;
     -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
     animation-delay: 16s;
@@ -264,6 +280,7 @@ body {
 #bottom .plane{
   z-index:2000;
   animation : trans3 35s ease-in-out infinite backwards, animColor;
+  -webkit-animation : trans3 35s ease-in-out infinite backwards, animColor;
   -webkit-animation-iteration-count: 1; 
   animation-iteration-count: 1; 
   animation-delay: 20s;
@@ -433,7 +450,36 @@ p{
     opacity: 0;
 }
 }
+@-webkit-keyframes trans1{ 
+  from { 
+    transform : translate3d(30%,0,0);
+	color: rgb(0,255,0);
+  }
+  to { 
+    transform : translate3d(-30%,0,0)
+  }
+  0% {background-position: 0px 0px;
+   	opacity: 1;
+		 }
+  100% {background-position: 50% 100%;
+    opacity: 0;
+}
+}
 @keyframes trans2{ 
+  from { 
+    transform : translate3d(40%,0,0)
+  }
+  to { 
+    transform : translate3d(-40%,0,0)
+  }
+  0% {background-position: 0px 0px;
+   	opacity: 1;
+		 }
+  100% {background-position: 50% 100%;
+    opacity: 0;
+}
+}
+@-webkit-keyframes trans2{ 
   from { 
     transform : translate3d(40%,0,0)
   }
@@ -456,7 +502,15 @@ p{
   }
 
 }
-  
+@-webkit-keyframes trans3{ 
+  from { 
+    transform : translate3d(20%,0,0)
+  }
+  to { 
+    transform : translate3d(-20%,0,0)
+  }
+
+}  
   
 /*-- Звезды --*/
 .boxv {
@@ -520,18 +574,30 @@ p{
 }
  
 @-moz-keyframes snow {
- 0% {background-position: 0px 0px;}
- 100% {background-position: 500px 1500px;}
+ 0% {background-position: 0px 0px;
+ 		opacity: 1;
+ }
+ 100% {background-position: 500px 1500px;
+ 		opacity: 0;
+ }
 }
  
 @-webkit-keyframes snow {
-0% {background-position: 0px 0px;}
- 100% {background-position: 500px 1500px;}
+0% {background-position: 0px 0px;
+		opacity: 1;
+}
+ 100% {background-position: 500px 1500px;
+ 		opacity: 0;
+ }
 }
  
 @-ms-keyframes snow {
- 0% {background-position: 0px 0px;}
- 100% {background-position: 500px 1500px;}
+ 0% {background-position: 0px 0px;
+ 		opacity: 1;
+ }
+ 100% {background-position: 500px 1500px;
+ 		opacity: 0;
+ }
 }
 /*-- Кнопки --*/
 .submitback{
@@ -823,16 +889,20 @@ position: absolute;
     height: 10%;
     animation: move 10s 1 linear;
 		}
-	
-
    @keyframes move {
    0% { transform: translateX(0%); 
    }
    100% { transform: translateX(-200%); 
    }
 }
+ @-webkit-keyframes move {
+   0% { transform: translateX(0%); 
+   }
+   100% { transform: translateX(-200%); 
+   }
+}
 
-	} 
+
 	@-webkit-keyframes box-anim {
 	 transition-duration: normal;
 	  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
@@ -981,34 +1051,45 @@ background-attachment:fixed;
 */
 
 /* Landscape phones and portrait tablets */
-/*@media screen and (max-width: 767px) {
-		html{
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background-repeat:no-repeat;
-background-position:center;
-background-attachment:fixed;
-overflow-x: hidden;
-
-}
-}*/
-/* Portrait phones and smaller */
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 			html{
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar6.jpg);
+overflow: hidden;
 background-repeat:no-repeat;
 background-position:center;
 background-attachment:fixed;
-overflow-x: hidden;
 }
-}*/
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+				html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar6.jpg);
+overflow: hidden;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
 /* Large devices (large desktops, 1200px and up) */
 /*@media (min-width: @screen-lg-min) {
 			html{
