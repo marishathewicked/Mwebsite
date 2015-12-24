@@ -37,6 +37,21 @@ body {
         overflow-x: hidden;
    
 }
+#av { 
+     position: absolute;
+	 z-index: 150;
+	 margin:0%;
+	 padding: 0%;
+     top: 7%;
+     left: 80%;
+     width: 15%;
+     height:10% ;
+	 opacity:0.3;
+     backcolor:#FFFF00;
+    frontcolor:#FFFF00;
+     cursor: pointer;
+     
+	}
 /*-- Елочка --*/
 
 #global{
