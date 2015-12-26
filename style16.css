@@ -39,18 +39,16 @@ body{
         overflow-x: hidden;
    
 }
-#av { 
-     position: absolute;
+#av{ 
+     position:absolute;
 	 z-index: 150;
+	 margin:0;
 	 top: 0%;
-     left: 71%;
+     left: 80%;
      width: 20%;
-     height:10% ;
-	 opacity:0.4;
-     backcolor:#FFFF00;
-	 frontcolor:#FFFF00;
-     cursor: pointer;
-	
+     height:5% ;
+     opacity:0.4;
+      cursor: pointer;
 	}
   .bg {
   position: absolute;
