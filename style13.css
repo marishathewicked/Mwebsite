@@ -1,154 +1,313 @@
-.hellm {
-  top: 80px;
-  position: absolute;
-    width: 400px;
-    height: 505px;
-    overflow: visible;
-    -webkit-animation: hellm-anim 2s steps(15) infinite steps(1);
-    animation: hellm-anim 20s steps(15) infinite;
-	animation-duration: 20s;
-    margin-left: 100px;
-	transform-style: preserve-3d;
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-.helli {
-   position: absolute;
-    top: 60px;
-    width: 400px;
-    height: 505px;
-    overflow: visible;
-    -webkit-animation: helli-anim 2s steps(15) infinite steps(1);
-    animation: helli-anim 20s steps(15) infinite;
-	animation-duration: 20s;
-    margin-left: 600px;
-	transform-style: preserve-3d;
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
 }
 body {
-  margin: 20px;
-  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/hell.jpg);
-  font-family: HelveticaNeue, Arial, Sans-serif;
-  color: #fff;
+	margin:0px;
+	padding:0px;
+	height: 100%;
+	margin-bottom:0%;
+	font-family:Verdana;
+	font-size:11px;
+	overflow-x: hidden;
+}
+html {
+   max-width: 100%;
+   height: auto;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/main121.jpg);
+ 
+ 
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+#main {
+	margin:0px auto;
+	width:1000px;
+	min-height:1809px;
+}
+/*-- Header Style --*/
+#hdr {
+	width:1000px;
+	height:288px;
+	margin:0 auto;
 }
 
-.hellm {
-    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/hellm3.png);
+/*-- Container Style --*/
+#cnt {
+	width:1000px;
+	height:auto;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-color:#FFF;
+	position:absolute;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt2.jpg) repeat-y;	
+	margin:0 auto;
+}
+#lcnt {
+	width:710px;
+	min-height:auto;
+	float:left;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/cnt2.jpg);
+	position:relative;
+}
+.post {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+.post h1 {
+	font-size:29px;
+}
+.post h1 a {
+	text-decoration:none;
+	color:#000;
 	
 }
-.helli {
-    background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/helli2.png);
+.post p {
+	font-size:12px;
+	text-indent: 1.5em;
+	}
+.post_inf {
+	float:left;
+	border-right:1px solid;
+	text-align:right;
+	margin:0 15px 0 0;
+	padding:10px 0 0 0;
+	height:64px;
+}
+.post_inf span {
+	margin: 0 20px 0 0;
+	font-size:14px;
+}
+.post_inf a {
+	margin: 0 20px 0 0;
+	font-size:14px;
+	text-decoration:none;	
+	color:#000;
+}
+.post_inf a:hover {
+	text-decoration:underline;
+}
+.posn {
+	font-style:italic;
+}
+.posc {
+	font-weight:bold;
+}
+.pagi {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+#rcnt {
+	width:290px;
+	float:left;
+	position:relative;
+}
+
+
+#rcnt h2 {
+	margin:30px 0 15px 20px;
+}
+#rcnt img {
+	border:0px none;
+}
+
+/* -- Article Style -- */
+#lcnt h2 {
+	margin:40px 0 0 70px;
+	font-size:22px;
+}
+#lcnt h2 a {
+	text-decoration:none;
+	color:#828180;
+}
+#lcnt h2 a:hover {
+	text-decoration:underline;
+}
+.boxv {
+    position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 40%;
+	margin-top: -125px;
+	margin-left: -325px;
+	width: 650px;
+	height: 250px;
+	font: 50px Tahoma;
+	text-align: center;
+   -webkit-animation: boxv-anim 20s  20s ease-in-out;
+    animation: boxv-anim 20s ease-in-out;
+
+		}
+
+	@keyframes boxv-anim {
+	  transition-duration: normal;
+	  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      transition-delay5: 2s, 5s;
+ 	0%{
+        transform:scale(1);
+		transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+	25%{ 
+        transform:scale(2);
+		 opacity: 0.7;
+		transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+	50%{ 
+        transform:scale(3);
+		 opacity: 0.5;
+		transition-timing-function: ease-in-out;
+    }
+	75%{ 
+        transform:scale(4);
+		 opacity: 0.1;
+		transition-timing-function: ease-in-out;
+    }
+    100% {
+        transform:scale(5);
+		 opacity: 0;
+		 transition-timing-function: ease-in-out;
+    }
+	} 
+	@-webkit-keyframes boxv-anim {
+	 transition-duration: normal;
+	  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      transition-delay5: 2s, 5s;
+ 	0%{
+        transform:scale(1);
+		transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+	25%{ 
+        transform:scale(2);
+		 opacity: 0.7;
+		transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+	50%{ 
+        transform:scale(3);
+		 opacity: 0.5;
+		transition-timing-function: ease-in-out;
+    }
+	75%{ 
+        transform:scale(4);
+		 opacity: 0.1;
+		transition-timing-function: ease-in-out;
+    }
+    100% {
+        transform:scale(5);
+		 opacity: 0;
+		 transition-timing-function: ease-in-out;
+    }
+	}
+#timer {
+	font: 150px Tahoma;
+	}
+.wrapper {
+    position: absolute;
+	z-index: 1;
+    background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/snow2.png);
+    width: 100%;
+	height: 100%;
+	display: none;
+ -webkit-animation: snow 30s ease-in-out ;
+ -moz-animation: snow 30s ease-in-out ;
+ -ms-animation: snow 30s ease-in-out ;
+ animation: snow 30s ease-in-out;
+
+}
+
+	@keyframes snow {
+ 0% {background-position: 0px 0px;
+   	opacity: 1;
+		 }
+  100% {background-position: 500px 1000px;
+    opacity: 0;
+		
+ }
+}
+ 
+@-moz-keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+ 
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+ 
+@-ms-keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+.submitback{
+	outline: none;
+	text-indent: -9000px;
+	border: 0;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowback.png) no-repeat center center;
+	position: absolute;
+	top: 90px;
+	left: 914px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+}
+.cn-slide:target .cn-back{
+	left: 3px;
+	opacity: 1;
+}
+
+.submit{
+	outline: none;
+	text-indent: -9000px;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrow.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 90px;
+	left: 820px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
 	
 }
-
-@-webkit-keyframes hellm-anim {
-    0% {background-position: -470px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
+.submithome{
+	outline: none;
+	text-indent: -9000px;
+	width: 51px;
+	height: 45px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/home.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 84px;
+	left: 867px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
 	}
-	 25% {background-position: -480px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	 }
-	 50% {background-position: -490px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	 }
-	 75% {background-position: -500px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	 }
-    100% {background-position: -520px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	}
-	from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-		
-    }
-}
-
-@keyframes hellm-anim {
-    0% {background-position: -470px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	}
-	 25% {background-position: -480px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	 }
-	 50% {background-position: -490px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	 }
-	 75% {background-position: -500px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	 }
-    100% {background-position: -520px;
-	 animation-timing-function: cubic-bezier(.24,1.49,.29,-0.48);
-	}
-	from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-		
-    }
-}
-@-webkit-keyframes helli-anim {
-0% {background-position: -250px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
-	}
-	 15% {background-position: -270px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.65,-0.45);
-	 }
-	 30% {background-position: -280px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
-	 }
-	 45% {background-position: -300px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.45,-0.45);
-	 }
-	  65% {background-position: -310px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
-	 }
-	  85% {background-position: -320px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.55,-0.45);
-	 }
-    100% {background-position: -330px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
-	}
-	from {
-        transform:rotate(10deg);
-    }
-    to {
-        transform:rotate(260deg);
-		
-    }
-   
-}
-
-
-@keyframes helli-anim {
-0% {background-position: -250px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
-	}
-	 15% {background-position: -270px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.65,-0.45);
-	 }
-	 30% {background-position: -280px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.75,-0.45);
-	 }
-	 45% {background-position: -300px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.45,-0.45);
-	 }
-	  65% {background-position: -310px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
-	 }
-	  85% {background-position: -320px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.55,-0.45);
-	 }
-    100% {background-position: -330px;
-	 animation-timing-function: cubic-bezier(.23,1.67,.25,-0.45);
-	}
-	from {
-        transform:rotate(10deg);
-    }
-    to {
-        transform:rotate(260deg);
-		
-    }
-   
-}
-
