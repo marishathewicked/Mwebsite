@@ -1,6 +1,6 @@
 html{
    
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch1.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -14,7 +14,7 @@ background-attachment:fixed;
 overflow: hidden;
 }
 bodyк{
-background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch1.jpg);
   	margin:0px;
 	padding:0px;
 	width: 100%;
@@ -2412,7 +2412,7 @@ overflow-x: hidden;
 		 max-width: 100%;
                  height: auto;
                  display: block;
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
 overflow: hidden;
 background-repeat:repeat;
 background-position:center;
@@ -2435,7 +2435,7 @@ background-attachment:fixed;
 		 max-width: 100%;
                  height: auto;
                  display: block;
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
 overflow: hidden;
 background-repeat:repeat;
 background-position:bottom;
@@ -2455,7 +2455,7 @@ background-attachment:fixed;
 		 max-width: 100%;
                  height: auto;
                  display: block;
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
 overflow: hidden;
 background-repeat:repeat;
 background-position:bottom;
@@ -2472,7 +2472,7 @@ background-attachment:fixed;
 /* Large devices (large desktops, 1200px and up) */
 /*@media (min-width: @screen-lg-min) {
 			html{
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
