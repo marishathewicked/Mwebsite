@@ -1,6 +1,6 @@
 html{
    
-		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch1.jpg);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -14,13 +14,20 @@ background-attachment:fixed;
 overflow: hidden;
 }
 bodyк{
-background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch1.jpg);
   	margin:0px;
 	padding:0px;
 	width: 100%;
         display: block;
         overflow-x: hidden;
    
+}
+.tadam {
+	 position: absolute;
+	z-index: 7;
+	top:60%;
+	left:3%;
+
 }
 /*-- Звезда happy new year star --*/
 .boxv {
@@ -2377,3 +2384,109 @@ div:nth-child(50) {
             transform: translate3d(75vw, 35vh, 0);
   }
 }
+
+	/* Large desktops and laptops */
+
+/*@media screen and (min-width: 1200px) {
+	html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}*/
+/* Landscape tablets and medium desktops */
+/*@media screen and (min-width: 992px) and (max-width: 1199px) {
+		html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+}*/
+/* Portrait tablets and small desktops Мой samsung */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+		html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
+overflow: hidden;
+background-repeat:repeat;
+background-position:center;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+
+*/
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 767px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
+overflow: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
+overflow: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) {
+			html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/branch4.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+}*/
