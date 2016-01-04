@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	font-family:Verdana;
+	font-size:11px;
+}
+body {
+  background: #9C9C9C;
+  overflow: hidden;
+}
+
+canvas {
+  //opacity: 0.6;
+}
+#av{ 
+     position:absolute;
+	 z-index: 150;
+	 margin:0;
+	 top: 50%;
+     left: 60%;
+     width: 20%;
+     height:5% ;
+	 opacity:0.4;
+     backcolor:#FFFF00;
+	 frontcolor:#FFFF00;
+     cursor: pointer;
+	
+     
+	}
+
+.eye2 {
+  position: absolute;
+  margin:0px;
+  padding:0px;
+  z-index: 10;
+  top: 40%; left: 17%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+  background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ele.png);
+  filter: grayscale(13%) url('#wobble');
+  -webkit-filter: grayscale(13%) url('#wobble');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.eye2::before {
+  content: "";
+  position: absolute;
+  margin:0px;
+  padding:0px;
+  z-index: 10;
+  width: 805px;
+  height: 500px;
+  background-image: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ele.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: difference;
+   -webkit-animation: pulse 2s infinite ;
+  animation: pulse1 2s infinite ;
+
+}
+
+.post {
+	 position:absolute;
+	 z-index: 150;
+	 margin:0;
+	 top: 48%;
+     left: 57%;
+     width: 20%;
+     height:5% ;
+	 }
+.post p {
+	font-size:18px;
+	text-indent: 4.5em;
+	color:#E0FFFF;
+	}

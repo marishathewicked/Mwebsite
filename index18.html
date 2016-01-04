@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title> Mr.-Guncix</title>
+        <link rel="stylesheet" href="media-queries2.css"> 
+		<link rel="stylesheet" href="style18.css"> 
+		<canvas id="canvas"></canvas>
+</head>
+<body>
+<div class="post">
+<p> Mr.-Guncix-walk </p>
+</div>
+<div class="eye1"></div>
+<div class="eye2"></div>
+	
+<svg>
+  <defs>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.006" numOctaves="3" result="warp">
+        <animate attributeName="baseFrequency" dur="5s" values="0.005 ; 0.025 ; 0.005" 
+        keyTimes="0 ; 0.5; ; 1" repeatCount="indefinite" />
+      </feTurbulence>
+      <feDisplacementMap xChannelSelector="R" yChannelSelector="B" scale="10" in="SourceGraphic" in2="warp">
+        <animate attributeName="scale" dur="10s" values="10 ; 50 ; 10" 
+        keyTimes="0 ; 0.5 ; 1" repeatCount="indefinite"/>
+      </feDisplacementMap>
+    </filter>
+  </defs>
+</svg>
+ 
+  <audio id="av" controls="controls"  >
+         <source src="https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Mr.-Guncix-walk.mp3.mp3" type="audio/mpeg">
+		
+	      </audio> 
+		  
+		  <script src="star.js"></script>
+
+  	 </body>
+
+</html>
+
+
