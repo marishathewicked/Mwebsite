@@ -270,7 +270,7 @@ body{
 	background-attachment: scroll;
 	background-color:#FFF;
 	position:absolute;
-	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ctn4.jpg) repeat-y;	
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ctn5.jpg) repeat-y;	
 	margin:0 auto;
 }
 #lcnt {
@@ -278,7 +278,7 @@ body{
 	width:710px;
 	min-height:auto;
 	float:left;
-	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ctn4.jpg);
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ctn5.jpg);
 	position:relative;
 }
 .post {
@@ -446,7 +446,7 @@ overflow-x: hidden;
                  height: auto;
                  display: block;
 		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/light5.jpg);
-overflow: hidden;
+overflow-x: hidden;
 background-repeat:repeat;
 background-position:center;
 background-attachment:fixed;
@@ -469,7 +469,7 @@ background-attachment:fixed;
                  height: auto;
                  display: block;
 		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/light5.jpg);
-overflow: hidden;
+overflow-x: hidden;
 background-repeat:repeat;
 background-position:bottom;
 background-attachment:fixed;
@@ -489,7 +489,7 @@ background-attachment:fixed;
                  height: auto;
                  display: block;
 		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/light5.jpg);
-overflow: hidden;
+overflow-x: hidden;
 background-repeat:repeat;
 background-position:bottom;
 background-attachment:fixed;
