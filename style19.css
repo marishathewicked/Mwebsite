@@ -1,0 +1,517 @@
+
+/*-- Все до безумия просто детка и разве тебе не плевать--*/
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	font-family:Verdana;
+	font-size:11px;
+}
+/*-- Идеальный фон! --*/
+html{
+   max-width: 100%;
+   height: auto;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/light.jpeg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+-webkit-background-repeat:no-repeat;
+background-repeat:no-repeat;
+-webkit-background-position:center;
+background-position:center;
+-webkit-background-attachment:fixed;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+body{
+  	margin:0px;
+	padding:0px;
+	width: 100%;
+        display: block;
+        overflow-x: hidden;
+   
+}
+#av{ 
+     position:absolute;
+	 z-index: 150;
+	 margin:0;
+	 top: 0%;
+     left: 80%;
+     width: 20%;
+     height:5% ;
+     opacity:0.4;
+      cursor: pointer;
+	}
+	/*-- Heart Style --*/
+  .cssload-loader {
+	position: absolute;
+	z-index:5;
+    top:45%;
+	left: 60%;
+	width: 262px;
+	height: 262px;
+	border-radius: 50%;
+		-o-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	perspective: 780px;
+}
+
+.cssload-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	border-radius: 50%;
+		-o-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;	
+}
+
+.cssload-inner.cssload-one {
+	left: 0%;
+	top: 0%;
+		animation: cssload-rotate-one 1.15s linear infinite;
+		-o-animation: cssload-rotate-one 1.15s linear infinite;
+		-ms-animation: cssload-rotate-one 1.15s linear infinite;
+		-webkit-animation: cssload-rotate-one 1.15s linear infinite;
+		-moz-animation: cssload-rotate-one 1.15s linear infinite;
+	border-bottom: 6px solid;
+	border-color:teal;
+}
+
+.cssload-inner.cssload-two {
+	right: 0%;
+	top: 0%;
+	animation: cssload-rotate-two 1.15s linear infinite;
+		-o-animation: cssload-rotate-two 1.15s linear infinite;
+		-ms-animation: cssload-rotate-two 1.15s linear infinite;
+		-webkit-animation: cssload-rotate-two 1.15s linear infinite;
+		-moz-animation: cssload-rotate-two 1.15s linear infinite;
+	border-right: 6px solid;
+	border-color:gold;
+}
+
+.cssload-inner.cssload-three {
+	right: 0%;
+	bottom: 0%;
+	animation: cssload-rotate-three 1.15s linear infinite;
+		-o-animation: cssload-rotate-three 1.15s linear infinite;
+		-ms-animation: cssload-rotate-three 1.15s linear infinite;
+		-webkit-animation: cssload-rotate-three 1.15s linear infinite;
+		-moz-animation: cssload-rotate-three 1.15s linear infinite;
+	border-top: 6px solid;
+	border-color:crimson;
+}
+
+@keyframes cssload-rotate-one {
+	0% {
+		transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+		}
+	100% {
+		transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	
+	}
+}
+
+@-o-keyframes cssload-rotate-one {
+	0% {
+		-o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate-one {
+	0% {
+		-ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate-one {
+	0% {
+		-webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate-one {
+	0% {
+		-moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@keyframes cssload-rotate-two {
+	0% {
+		transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate-two {
+	0% {
+		-o-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-o-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate-two {
+	0% {
+		-ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate-two {
+	0% {
+		-webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate-two {
+	0% {
+		-moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@keyframes cssload-rotate-three {
+	0% {
+		transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate-three {
+	0% {
+		-o-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-o-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate-three {
+	0% {
+		-ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate-three {
+	0% {
+		-webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate-three {
+	0% {
+		-moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+/*-- Header Style --*/
+#hdr {
+	width:1000px;
+	height:288px;
+	margin:0 auto;
+}
+
+/*-- Container Style --*/
+#cnt {
+	width:1000px;
+	height:auto;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-color:#FFF;
+	position:absolute;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ctn4.jpg) repeat-y;	
+	margin:0 auto;
+}
+#lcnt {
+	width:710px;
+	min-height:auto;
+	float:left;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/ctn4.jpg);
+	position:relative;
+}
+.post {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+.post h1 {
+	font-size:29px;
+}
+.post h1 a {
+	text-decoration:none;
+	color:#000;
+	
+}
+.post p {
+	font-size:12px;
+	text-indent: 1.5em;
+	}
+.post_inf {
+	float:left;
+	border-right:1px solid;
+	text-align:right;
+	margin:0 15px 0 0;
+	padding:10px 0 0 0;
+	height:64px;
+}
+.post_inf span {
+	margin: 0 20px 0 0;
+	font-size:14px;
+}
+.post_inf a {
+	margin: 0 20px 0 0;
+	font-size:14px;
+	text-decoration:none;	
+	color:#000;
+}
+.post_inf a:hover {
+	text-decoration:underline;
+}
+.posn {
+	font-style:italic;
+}
+.posc {
+	font-weight:bold;
+}
+.pagi {
+	width:622px;	
+	margin:50px 0 0 47px;
+}
+#rcnt {
+	width:290px;
+	float:left;
+	position:relative;
+}
+
+
+#rcnt h2 {
+	margin:30px 0 15px 20px;
+}
+#rcnt img {
+	border:0px none;
+}
+
+/* -- Article Style -- */
+#lcnt h2 {
+	margin:40px 0 0 70px;
+	font-size:22px;
+}
+#lcnt h2 a {
+	text-decoration:none;
+	color:#828180;
+}
+#lcnt h2 a:hover {
+	text-decoration:underline;
+}
+/*-- Кнопки --*/
+.submitback{
+	outline: none;
+	z-index: 5;
+	text-indent: -9000px;
+	border: 0;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowbackcg.png) no-repeat center center;
+	position: absolute;
+	top: 5%;
+	left: 88%;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+}
+.submit{
+	outline: none;
+	z-index: 5;
+	text-indent: -9000px;
+	width: 49px;
+	height: 42px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/arrowcg.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 5%;
+	left: 80%;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	
+}
+.submithome{
+	outline: none;
+	z-index: 5;
+	text-indent: -9000px;
+	width: 51px;
+	height: 45px;
+	background: transparent url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/homecg.png) no-repeat center center;
+	border: 0;
+	position: absolute;
+	top: 4.5%;
+	left: 84%;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out 0.5s;
+	-moz-transition: all 0.4s ease-in-out 0.5s;
+	-o-transition: all 0.4s ease-in-out 0.5s;
+	-ms-transition: all 0.4s ease-in-out 0.5s;
+	transition: all 0.4s ease-in-out 0.5s;
+	}
+
+	/* Large desktops and laptops */
+
+/*@media screen and (min-width: 1200px) {
+	html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}*/
+/* Landscape tablets and medium desktops */
+/*@media screen and (min-width: 992px) and (max-width: 1199px) {
+		html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+}*/
+/* Portrait tablets and small desktops Мой samsung */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+		html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/light5.jpg);
+overflow: hidden;
+background-repeat:repeat;
+background-position:center;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+
+*/
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 767px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/light5.jpg);
+overflow: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/light5.jpg);
+overflow: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) {
+			html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+}*/
