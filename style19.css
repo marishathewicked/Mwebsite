@@ -274,7 +274,7 @@ body{
 	margin:0 auto;
 }
 #lcnt {
-	overflow-y: scroll;
+	background-attachment: scroll;
 	width:710px;
 	min-height:auto;
 	float:left;
