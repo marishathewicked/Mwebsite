@@ -253,7 +253,7 @@ body{
 /*-- Кнопки --*/
 .submitback{
 	outline: none;
-	z-index: 5;
+	z-index: 205;
 	text-indent: -9000px;
 	border: 0;
 	width: 49px;
@@ -271,7 +271,7 @@ body{
 }
 .submit{
 	outline: none;
-	z-index: 5;
+	z-index: 205;
 	text-indent: -9000px;
 	width: 49px;
 	height: 42px;
@@ -290,7 +290,7 @@ body{
 }
 .submithome{
 	outline: none;
-	z-index: 5;
+	z-index: 205;
 	text-indent: -9000px;
 	width: 51px;
 	height: 45px;
